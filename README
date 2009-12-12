@@ -1,6 +1,71 @@
+========
 StoryDSA
 ========
 
-StoryDSA is a role playing game project, based on the (in)famous German RPG "Das schwarze Auge". The whole thing is written in German.
+StoryDSA is a role playing game project, based on the (in)famous German RPG "Das schwarze Auge". The whole thing is written in German. So the rest of this README is also written in this language.
 
-... weiteres folgt ...
+
+Was ist das hier?
+=================
+
+StoryDSA ist ein Papier&Bleistift-Rollenspiel, man könnte es auch Erzählspiel nennen. In diesem Repository befinden sich die LaTeX-Quellen der Regeln. PDFs findet man hier (derzeit) keine. Wer einfach am Lesen und Spielen von StoryDSA interessiert ist, kann über das Metstübchen (http://www.metstuebchen.de/, dann auf "Weitere Angebote" und "Schriftenverzeichnis") heruntergeladen werden.
+
+
+Wie benutze ich das?
+====================
+
+Um die Quellen zu nutzen, musst du installiert haben:
+
+    LaTeX (z.B. TeX Live, siehe http://www.tug.org/texlive/)
+
+Dann einfach in das Regeln-Verzeichnis wechseln und
+    
+    pdflatex StoryDSA
+    
+eintippen. Nach einigen Sekunden sollte eine Datei
+
+    StoryDSA.pdf
+
+entstanden sein. Diese Datei enthält die Regeln in einem einfachen Layout. Veränderungen zur vorherigen Release-Version sind blau markiert.
+
+
+
+Und das Makefile?
+=================
+
+Das Makefile dient dazu, das Erstellen von StoryDSA (inklusive Index, final-Version usw.) zu vereinfachen. Dazu muss allerdings zusätzlich das Tool "make" installiert sein.
+
+Targets:
+- rebuild [default]: Erstellen der zuletzt gebauten Version, ohne Update des Index
+- all: Erstellen der Draft- und der Final-Version
+- final: Erstellen der Final-Version
+- draft: Erstellen der Draft-Version
+- clean: Löschen aller überflüssiger Dateien
+
+
+
+Wie ist die Lizenz von StoryDSA?
+================================
+
+StoryDSA steht unter der Creative-Commons-by-3.0-Lizenz: "CreativeCommons, Namensnennung 3.0 Deutschland". Weitere Informationen dazu gibt es hier:
+
+http://creativecommons.org/licenses/by/3.0/de/
+
+Im Wesentlichen bedeutet das:
+
+* Du darfst StoryDSA vervielfältigen, verbreiten und öffentlich zugänglich machen
+* Du darfst Abwandlungen und Bearbeitungen von StoryDSA anfertigen
+* Du musst die Namen der Autoren nennen, wenn du StoryDSA oder eine abgewandelte Version verbreitest oder öffentlich zugänglich machst
+
+
+Verwendung der Marke und Inhalten von DAS SCHWARZE AUGE mit freundlicher Genehmigung der Ulisses Medien & Spiel Distribution GmbH.
+Copyright (c) 2007 by Significant GbR für die Marke DAS SCHWARZE AUGE in Wort und Bild, by Alpers, Fuchs, Kramer, Neigel für die Inhalte. 
+StoryDSA enthält nichtoffizielle Informationen zum Rollenspiel Das Schwarze Auge und zur Welt Aventurien. Diese Informationen können im Widerspruch zu offiziell publizierten Texten stehen. Bei Fragen zu StoryDSA wenden Sie sich bitte an die Autoren.
+
+
+
+
+Viel Spaß wünscht der Mann mit Hut!
+
+Dominic Wäsch
+
