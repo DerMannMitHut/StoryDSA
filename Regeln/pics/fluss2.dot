@@ -1,0 +1,72 @@
+digraph beispielweb{
+
+  compound=true
+  node [fontsize=8]
+
+  subgraph cluster0{
+    label="Einleitung"
+
+    node [shape=box]   // SL-Erzählphase
+    anfang [label="SCs treffen auf die Orks"]
+    aussteigerfrei [label="Aussteiger befreit\n(Infos mündlich)"]
+    aussteigertot [label="Aussteiger tot\n(Infos schriftlich)"]
+
+    node [shape=ellipse] // freies Spiel
+
+    node [shape=diamond] // Nebenkonflikt
+
+    node [shape=triangle] // Hauptkonflikt
+    orkkampf [label="Kampf mit den Orks:\nWird der Aussteiger befreit?"]
+  }
+
+  subgraph cluster1{
+    label = "Mittelteil"
+
+    node [shape=box]   // SL-Erzählphase
+    stadttor [label="Stadttor"]
+
+    node [shape=ellipse] // freies Spiel
+    trallop [label="In Trallop"]
+
+    node [shape=diamond] // Nebenkonflikt
+    oberschmied [label="Beim Gildenoberhaupt der Schmiede"]
+    schwarzmagier [label="Der Schwarzmagier"]
+
+    node [shape=triangle] // Hauptkonflikt
+
+  }
+
+  subgraph cluster2{
+    label = "Ende"
+
+    node [shape=box]   // SL-Erzählphase
+    ende1 [label="Ende 1"]
+    ende2 [label="Ende 2"]
+
+    node [shape=ellipse] // freies Spiel
+
+    node [shape=diamond] // Nebenkonflikt
+
+    node [shape=triangle] // Hauptkonflikt
+    flusshaendler [label="Der Flusshändler"]
+
+  }
+
+  anfang -> orkkampf
+  
+  orkkampf -> aussteigerfrei -> stadttor
+  orkkampf -> aussteigertot -> stadttor
+
+  stadttor -> trallop
+
+  trallop -> oberschmied -> trallop
+  trallop -> schwarzmagier -> trallop
+  trallop -> flusshaendler
+
+  flusshaendler -> ende1
+  flusshaendler -> ende2
+
+  
+
+}
+

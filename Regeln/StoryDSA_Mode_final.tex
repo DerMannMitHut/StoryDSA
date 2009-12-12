@@ -1,0 +1,51 @@
+% Story-DSA-Mode: final
+
+\usepackage{bookman}
+\usepackage[paperwidth=165mm,paperheight=212mm,textwidth=133mm,top=20mm,bottom=20mm,headsep=2ex,footskip=14.5mm,includehead=false,includefoot=false]{geometry}
+\special{papersize=165mm,212mm} % f"ur Spezialgröße 2
+
+\newcommand{\fancyhdrdefinition}{%
+    \newsavebox{\rahmenbox}%
+    \sbox{\rahmenbox}{%
+	\unitlength1mm%
+	\begin{picture}(0,0)%
+	    \put(-14.6,-196.3){\includegraphics{pics/blaetter4.png}}%
+	\end{picture}%
+    }%
+    \fancypagestyle{plain}{%
+	\renewcommand{\headrulewidth}{0pt}%
+	\renewcommand{\footrulewidth}{0pt}%
+	\fancyhead[L]{\usebox{\rahmenbox}}%
+	\fancyhead[C]{}%
+	\fancyfoot[C]{\bfseries\thepage}%
+    }%
+    \fancypagestyle{headings}{%
+	\renewcommand{\headrulewidth}{0pt}%
+	\renewcommand{\footrulewidth}{0pt}%
+	\fancyhead[L]{\usebox{\rahmenbox}}%
+	\fancyhead[C]{\raisebox{6.5mm}[0pt][0pt]{\fcolorbox{black}{white}{\quad\raisebox{0pt}[1.6ex][0.5ex]{\rightmark}\quad}}}%
+	\fancyfoot[C]{\bfseries\thepage}%
+    }%
+    \pagestyle{headings}%
+}
+
+\newcommand{\titlesecdefinition}{%
+    \newcommand{\titlefont}{\usefont{T1}{pzc}{m}{it}}%
+    \titleformat{\chapter}[block]{\Huge\titlefont\raggedleft}{\thechapter}{2ex}{}%
+    \titleformat{\section}[block]{\LARGE\titlefont\centering}{\thesection}{1ex}{}%
+    \titleformat{\subsection}[block]{\Large\titlefont}{}{0pt}{}%
+    \titleformat{\subsubsection}[block]{\large\titlefont}{}{0pt}{}%
+}
+
+\newcommand{\neufont}{XXX}%
+\newcommand{\FEHLT}[1]{\medskip\centerline{\fbox{\textbf{\large!!! #1 !!!}}}\medskip}%
+
+\usepackage{lettrine}
+\renewcommand{\LettrineFontHook}{\titlefont}
+\renewcommand{\LettrineTextFont}{}
+\setcounter{DefaultLines}{3}
+\renewcommand\DefaultLoversize{0.2}
+\renewcommand\DefaultLhang{0.3}
+\setlength{\DefaultFindent}{0.5em}
+\setlength{\DefaultNindent}{0pt}
+

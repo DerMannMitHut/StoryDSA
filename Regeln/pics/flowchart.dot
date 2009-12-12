@@ -1,0 +1,17 @@
+digraph flowchart{
+  rankdir=TB
+  nodesep=0.7
+
+  start [rank=source,label="Start",shape=parallelogram]
+  {
+    rank=same
+    konf [label="Konflikt",shape=diamond]
+    slerz [label="SL-Erzählphase",shape=box]
+    frei [label="Freies Spiel",shape=ellipse]
+  }
+  ende [rank=sink,label="Ende",shape=parallelogram]
+
+  start -> slerz
+  konf -> slerz -> frei [dir=both]
+  slerz -> ende
+}

@@ -1,0 +1,49 @@
+digraph beispielweb{
+
+  compound=true
+
+  node [style=filled]
+
+  subgraph cluster0{
+    label="Schmiede"
+    SchmiedOberhaupt [label="Oberhaupt\n(Auslöser)",color=yellow]
+    SchmiedAussteiger [label="Aussteiger\n(Aufhänger)",color=lightblue]
+  }
+
+  subgraph cluster1{
+    label="Flusshändler"
+    HaendlerOberhaupt [label="Oberhaupt",color=yellow]
+    HaendlerKumpel [label="Flusshändler",color=red]
+  }
+
+  subgraph cluster2{
+    label="Ork-Sippe (Tordochai)"
+    OrkSchamane [label="Schamane",color=red]
+    OrkOberhaupt [label="Oberhaupt",color=red]
+  }
+
+  Magier [label="Schwarzmagier",color=yellow]
+  Mutter [label="Tharams Mutter",color=lightblue]
+
+
+  // Gruppe--Gruppe
+  edge [minlen=2.5]
+  SchmiedOberhaupt -> HaendlerOberhaupt [ltail=cluster0,lhead=cluster1,arrowhead=normal,arrowtail=normal]
+  OrkSchamane -> HaendlerOberhaupt [ltail=cluster2,lhead=cluster1,arrowhead=normal,arrowtail=normal]
+  
+
+  // Person--Gruppe
+  edge [minlen=2.5]
+  SchmiedOberhaupt -> OrkOberhaupt [lhead=cluster2,arrowhead=box,arrowtail=dot]
+  Magier -> SchmiedOberhaupt [lhead=cluster0,arrowhead=normal]
+
+
+  // Person--Person
+  edge [minlen=2]
+  SchmiedOberhaupt -> SchmiedAussteiger [arrowhead=normal,arrowtail=normal]
+  SchmiedOberhaupt -> Mutter [arrowhead=dot,arrowtail=dot]
+  OrkOberhaupt -> SchmiedAussteiger [arrowhead=normal]
+  HaendlerKumpel -> SchmiedAussteiger [arrowhead=box,arrowtail=dot]
+  HaendlerKumpel -> Magier [arrowhead=box,arrowtail=dot]
+
+}

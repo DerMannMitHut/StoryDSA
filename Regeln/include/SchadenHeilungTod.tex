@@ -1,0 +1,76 @@
+\chapter{Schaden, Heilung und Tod}\label{Ch:SchadenHeilungUndTod}\label{VerletzungUndTod}\index{Schaden}\index{Heilung}\index{Tod}
+
+
+\lettrine{B}{ei} \StoryDSA hat jeder Charakter eine bestimmte Menge an \DEF{Lebenskraft}\index{Lebenskraft} und \DEF{Willenskraft}\index{Willenskraft}. Normalerweise hat ein Anfängercharakter MU+KL+IN+CH+6 (im Mittel 10) Willenskraft und GE+FF+KO+KK+8 (im Mittel 12) Lebenskraft. Magiekundige können Kräfte gegen \DEF{Astralenergie}\index{Astralenergie} tauschen, daher haben sie weniger.
+
+Diese Kräfte steht für die Fähigkeit eines Charakters, Niederlagen problemlos wegzustecken. Ein Charakter mit einer hohen Lebens- oder Willenskraft hält leichter mehrere Konflikte in Folge aus als ein Charakter mit Kraftreserven. Denn in einigen Kurzkonflikten und praktisch allen Neben- und Hauptkonflikten bekommt ein Charakter Schadenspunkte\index{Schaden}\index{Schadenspunkt}. Werden diese zu hoch, so ist der Charakter durch die Konflikte mitgenommen worden und bekommt Nachteile, Schmerzen und Frust zu spüren, die ihn bei weiteren Konflikten behindern. Diese Nachteile können bis zur Handlungsunfähigkeit\index{handlungsunfähig} wachsen, wenn der Schaden die Kräfte übersteigt.
+
+\section{Schaden}\index{Schaden}
+
+Jeglicher Schaden wird entweder als \DEF{geistiger Schaden}\index{Schaden!geistig} oder \DEF{körperlicher Schaden}\index{Schaden!körperlich} notiert. Neuer Schaden wird einfach zur entsprechenden Schadensart hinzuaddiert.
+
+Es gilt:
+\begin{tabular}[C]{|r@{ $\ge$ }l|l|}
+	\hline
+	Schaden & 1/2 Kraft & 3 Malus auf alle Werte \\
+	Schaden & 3/4 Kraft & 6 Malus auf alle Werte \\
+	Schaden & Kraft & handlungsunfähig \\
+	\hline
+\end{tabular}
+Bei der Berechnung wird normal gerundet, der Malus von körperlichem und geistigem Schaden addiert sich einfach. Damit ergibt sich folgende Tabelle:
+
+\begin{tabular}[C]{>{\bf}r*9c}
+Kraft & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 \\
+3/4 & 2 & 3 & 4 & 5 & 5 & 6 & 7 & 8 & 8 \\
+1/2 & 2 & 2 & 3 & 3 & 4 & 4 & 5 & 5 & 6 \\[\medskipamount]
+Kraft & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 \\
+3/4 & 9 &10 &11 &11 &12 &13 &14 &14 &15 \\
+1/2 & 6 & 7 & 7 & 8 & 8 & 9 & 9 &10 &10 \\
+\end{tabular}
+Sollte ein Charakter tatsächlich nur 3 Punkte Willenskraft haben, so ergibt das 6~Maluspunkte, sobald er 2 Schaden bekommen hat.
+
+\begin{beispiel}
+\paragraph{Beispiel:} Wittmar von Edeneichen hat 9 Willenskraft und 14 Lebenskraft. Damit gilt:
+\begin{tabular}[C]{rcc}
+	\bf Kraft & 9  & 14 \\
+	\bf 3/4   & 7  & 11 \\
+	\bf 1/2   & 5  & 7  \\
+\end{tabular}
+Hat Wittmar bereits 4 Punkte geistigen Schaden und 3 Punkte körperlichen Schaden, so bekommt der Spieler keinen Malus beim Würfeln. Nach einem Konflikt kommen noch 3 Punkte geistiger Schaden dazu, was insgesamt 7 Punkte geistigen Schaden macht. Damit bekommt er 6 Punkte Malus auf alle Würfe. Kommen durch einen weiteren Konflikt weitere 5 Punkte körperlicher Schaden hinzu, steigt der körperliche Schaden auf 8 und damit der Malus auf insgesamt 9 (6 durch geistigen, 3 durch körperlichen Schaden).
+\end{beispiel}
+
+\begin{design}
+\subsubsection{Designanmerkung: Schaden}
+Rein rechnerisch könnte Schaden genausogut von der Kraft abgezogen werden, das ist Geschmackssache. Auf die hier vorgestellte Weise lassen sich die Regeln aber einfacher formulieren.
+\end{design}
+
+\section{Heilung}\index{Heilung}
+
+Durch Ruhe und Schonung regeneriert ein Charakter auf natürlichem Weg: Er heilt einen körperlichen Schadenspunkt pro halben Tag (genauer nach jeweils 12 Stunden) ohne Anstrengung und einen geistigen Schadenspunkt pro zwei Stunden, in der er geistig entspannen kann. Ob eine Anstrengung zu groß ist, kann man daran ablesen, ob ein Konflikt (egal ob Kurz-, Neben- oder Hauptkonflikt) während der entsprechenden Zeit stattfindet. Findet innerhalb der Zeitspanne ein entsprechender Konflikt statt, so beginnt die Zeitspanne nach dem Konflikt entsprechend neu.
+
+\begin{beispiel}
+\paragraph{Beispiel:} Alrik ist schwer getroffen: Er hat 4 Punkte geistigen und 6 Punkte körperlichen Schaden. Der geistige Schaden ist nach acht Stunden wieder komplett geheilt. Nach einem Tagen Ruhe sind auch 2 Punkte körperlicher Schaden wieder geheilt. Dann kommt es jedoch wieder zu einem körperlichen Konflikt. Alrik bekommt zwar keinen körperlichen Schaden dazu, ist also immer noch bei 4, regeneriert aber auch nicht. Damit verlängert sich die Regeneration also 12 Stunden.
+\end{beispiel}
+
+
+Dieser natürliche Heilungsprozess kann durch äußere Einflüsse beschleunigt werden. Dafür stehen folgende Möglichkeiten offen:
+
+\begin{description}
+  \item[Erste Hilfe:] Direkt nach einem Konflikt mach ein anderer Charakter ein Kurzkonflikt Heilkunde Wunde oder Seele. Ziel ist es, einen entsprechenden Punkt zu heilen. Gelingt der Wurf, so wird ein Punkt vom entsprechenden Schaden geheilt. Misslingt die Probe, so passiert nichts; misslingt die Probe kritisch, so erhöht sich der Schaden um 1. Die Dauer dieser Erste-Hilfe-Maßnahme beträgt ca. 5--10 Minuten.
+  
+  Pro Patient steht nur ein Versuch zur Verfügung; dabei können sich aber mehrere behandelnde Charaktere gegenseitig ganz normal unterstützen.
+  
+  \item[Langzeitbehandlung:] Mit Heilkunde Wunde ist auch eine Langzeitbehandlung möglich. Wird ein Charakter gepflegt, so muss der Pflegende einmal pro Tag einen Kurzkonflikt Heilkunde Wunden würfeln. Gelingt die Probe und schont sich der Verletzte (d.\,h. üblicherweise Bettruhe), so heilt alle 12 Stunden einen Punkt körperlichen Schaden zusätzlich zur natürlichen Regeneration. Misslingt die Probe kritisch, findet für 24 Stunden keine Regeneration statt (weder natürliche noch Regeneration durch Behandlung; nur magische Heilung ist noch möglich). Die Behandlung eines Verletzten nimmt, verteilt auf den Tag, ca. 10 Minuten pro körperlichen Schadenspunkt in Anspruch.
+  
+  \item[Aufbauendes Gespräch:] Heilkunde Seele kann über ein Gespräch geistigen Schaden  heilen. Ein einstündiges Therapiegespräch heilt die Hälfte des geistigen Schadens, wenn dem Therapeuten ein Kurzkonflikt gelingt. Beträgt z.\,B. der geistige Schaden 7 Punkte, so regeneriert der Charakter 4~Punkte durch ein (gelungenes) Gespräch. Misslingt der Kurzkonflikt kritisch, so bleibt für die Stunde auch die natürliche Heilung aus.
+  
+  Ein solches Gespräch kann nur wiederholt werden, wenn der Patient in der Zwischenzeit wieder neuen geistigen Schaden bekommen hat.
+
+  \item[Magie:] Beherrscht ein Charakter magische Heilung, so kann er mit einem einfachen Kurzkonflikt Schaden heilen (auch bei sich selbst). Pro Astralpunkt verschwindet ein Schadenspunkt auf magische Weise. Eine magische Heilung dauert etwa 5~Minuten. Misslingt der Kurzkonflikt, so kostet der Heilversuch trotzdem einen Astralpunkt.
+\end{description}
+
+\section{Tod}
+
+Und wie sieht das mit dem Sterben aus? Das ist relativ einfach: Sterben können Charaktere nur, wenn das Leben in einem Konflikt auf dem Spiel steht, also wenn das Konfliktziel beispielsweise lautet: Das Ziel des Charakters ist, nicht zu sterben. Geht ein solcher Konflikt verloren, kann der Charakter als Konfliktfolge sterben. In Nebenkonflikten wird er eventuell dennoch überleben (da das Konfliktziel meist unter Schwierigkeiten doch erreicht wird), jedoch sollte der Tod in Nebenkonflikten eigentlich nicht auf dem Spiel stehen, denn es handelt sich ja um einen \emph{Neben}konflikt und der Tod eines Charakters wäre ja schon ein ziemlicher Einschnitt in die Geschichte. In Hauptkonflikten, bei denen beispielsweise der Oberböse Endgegner die Charaktere töten möchte, ist ein verlorener Konflikt dann jedoch im Normalfall das wirkliche Ende.
+
+

@@ -1,0 +1,2286 @@
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for i386-apple-darwin10.0
+Reading makefiles...
+Reading makefile `Makefile'...
+Updating makefiles....
+ Considering target file `Makefile'.
+  Looking for an implicit rule for `Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.o'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.c'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.cc'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.C'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.cpp'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.p'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.f'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.F'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.m'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.r'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.s'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.S'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.sh'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `s.Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `SCCS/s.Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.o'.
+  Looking for a rule with intermediate file `Makefile.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.c'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.C'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.p'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.f'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.F'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.m'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.s'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.mod'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `Makefile.o,v'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `RCS/Makefile.o,v'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `RCS/Makefile.o'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `s.Makefile.o'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `SCCS/s.Makefile.o'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.c'.
+   Looking for a rule with intermediate file `Makefile.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.y'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.l'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `Makefile.c,v'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `RCS/Makefile.c,v'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `RCS/Makefile.c'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `s.Makefile.c'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `SCCS/s.Makefile.c'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.y'.
+    Looking for a rule with intermediate file `Makefile.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `Makefile.y,v'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `RCS/Makefile.y,v'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `RCS/Makefile.y'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `s.Makefile.y'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `SCCS/s.Makefile.y'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.l'.
+    Looking for a rule with intermediate file `Makefile.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `Makefile.l,v'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `RCS/Makefile.l,v'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `RCS/Makefile.l'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `s.Makefile.l'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `SCCS/s.Makefile.l'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Looking for a rule with intermediate file `Makefile.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `Makefile.w,v'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `RCS/Makefile.w,v'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `RCS/Makefile.w'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `s.Makefile.w'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `SCCS/s.Makefile.w'.
+    Trying pattern rule with stem `Makefile'.
+    Rejecting impossible implicit prerequisite `Makefile.w'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Looking for a rule with intermediate file `Makefile.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `Makefile.cc,v'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `RCS/Makefile.cc,v'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `RCS/Makefile.cc'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `s.Makefile.cc'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `SCCS/s.Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.C'.
+   Looking for a rule with intermediate file `Makefile.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `Makefile.C,v'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `RCS/Makefile.C,v'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `RCS/Makefile.C'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `s.Makefile.C'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `SCCS/s.Makefile.C'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cpp'.
+   Looking for a rule with intermediate file `Makefile.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `Makefile.cpp,v'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `RCS/Makefile.cpp,v'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `RCS/Makefile.cpp'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `s.Makefile.cpp'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `SCCS/s.Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.p'.
+   Looking for a rule with intermediate file `Makefile.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.web'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `Makefile.p,v'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `RCS/Makefile.p,v'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `RCS/Makefile.p'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `s.Makefile.p'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `SCCS/s.Makefile.p'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.web'.
+    Looking for a rule with intermediate file `Makefile.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `Makefile.web,v'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `RCS/Makefile.web,v'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `RCS/Makefile.web'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `s.Makefile.web'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `SCCS/s.Makefile.web'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.f'.
+   Looking for a rule with intermediate file `Makefile.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.F'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.r'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `Makefile.f,v'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `RCS/Makefile.f,v'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `RCS/Makefile.f'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `s.Makefile.f'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `SCCS/s.Makefile.f'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.F'.
+    Looking for a rule with intermediate file `Makefile.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `Makefile.F,v'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `RCS/Makefile.F,v'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `RCS/Makefile.F'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `s.Makefile.F'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `SCCS/s.Makefile.F'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.r'.
+    Looking for a rule with intermediate file `Makefile.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile'.
+     Rejecting impossible implicit prerequisite `Makefile.l'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `Makefile.r,v'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `RCS/Makefile.r,v'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `RCS/Makefile.r'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `s.Makefile.r'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `SCCS/s.Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.F'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.m'.
+   Looking for a rule with intermediate file `Makefile.m'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.ym'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.lm'.
+    Trying pattern rule with stem `Makefile.m'.
+    Trying implicit prerequisite `Makefile.m,v'.
+    Trying pattern rule with stem `Makefile.m'.
+    Trying implicit prerequisite `RCS/Makefile.m,v'.
+    Trying pattern rule with stem `Makefile.m'.
+    Trying implicit prerequisite `RCS/Makefile.m'.
+    Trying pattern rule with stem `Makefile.m'.
+    Trying implicit prerequisite `s.Makefile.m'.
+    Trying pattern rule with stem `Makefile.m'.
+    Trying implicit prerequisite `SCCS/s.Makefile.m'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.ym'.
+    Looking for a rule with intermediate file `Makefile.ym'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.ym'.
+     Trying implicit prerequisite `Makefile.ym,v'.
+     Trying pattern rule with stem `Makefile.ym'.
+     Trying implicit prerequisite `RCS/Makefile.ym,v'.
+     Trying pattern rule with stem `Makefile.ym'.
+     Trying implicit prerequisite `RCS/Makefile.ym'.
+     Trying pattern rule with stem `Makefile.ym'.
+     Trying implicit prerequisite `s.Makefile.ym'.
+     Trying pattern rule with stem `Makefile.ym'.
+     Trying implicit prerequisite `SCCS/s.Makefile.ym'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.lm'.
+    Looking for a rule with intermediate file `Makefile.lm'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.lm'.
+     Trying implicit prerequisite `Makefile.lm,v'.
+     Trying pattern rule with stem `Makefile.lm'.
+     Trying implicit prerequisite `RCS/Makefile.lm,v'.
+     Trying pattern rule with stem `Makefile.lm'.
+     Trying implicit prerequisite `RCS/Makefile.lm'.
+     Trying pattern rule with stem `Makefile.lm'.
+     Trying implicit prerequisite `s.Makefile.lm'.
+     Trying pattern rule with stem `Makefile.lm'.
+     Trying implicit prerequisite `SCCS/s.Makefile.lm'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.s'.
+   Looking for a rule with intermediate file `Makefile.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.S'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `Makefile.s,v'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `RCS/Makefile.s,v'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `RCS/Makefile.s'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `s.Makefile.s'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `SCCS/s.Makefile.s'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.S'.
+    Looking for a rule with intermediate file `Makefile.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `Makefile.S,v'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `RCS/Makefile.S,v'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `RCS/Makefile.S'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `s.Makefile.S'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `SCCS/s.Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.mod'.
+   Looking for a rule with intermediate file `Makefile.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `Makefile.mod,v'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `RCS/Makefile.mod,v'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `RCS/Makefile.mod'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `s.Makefile.mod'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `SCCS/s.Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.c'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.cc'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.C'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.cpp'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.p'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.f'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.F'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.m'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.r'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.s'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.S'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.sh'.
+  Looking for a rule with intermediate file `Makefile.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `Makefile.sh,v'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `RCS/Makefile.sh,v'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `RCS/Makefile.sh'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `s.Makefile.sh'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `SCCS/s.Makefile.sh'.
+  No implicit rule found for `Makefile'.
+  Finished prerequisites of target file `Makefile'.
+ No need to remake target `Makefile'.
+Updating goal targets....
+Considering target file `StoryDSA_draft.pdf'.
+  Considering target file `StoryDSA.tex'.
+   Looking for an implicit rule for `StoryDSA.tex'.
+   Trying pattern rule with stem `StoryDSA'.
+   Trying implicit prerequisite `StoryDSA.w'.
+   Trying pattern rule with stem `StoryDSA'.
+   Trying implicit prerequisite `StoryDSA.web'.
+   Trying pattern rule with stem `StoryDSA'.
+   Trying implicit prerequisite `StoryDSA.w'.
+   Trying pattern rule with stem `StoryDSA.tex'.
+   Trying implicit prerequisite `StoryDSA.tex,v'.
+   Trying pattern rule with stem `StoryDSA.tex'.
+   Trying implicit prerequisite `RCS/StoryDSA.tex,v'.
+   Trying pattern rule with stem `StoryDSA.tex'.
+   Trying implicit prerequisite `RCS/StoryDSA.tex'.
+   Trying pattern rule with stem `StoryDSA.tex'.
+   Trying implicit prerequisite `s.StoryDSA.tex'.
+   Trying pattern rule with stem `StoryDSA.tex'.
+   Trying implicit prerequisite `SCCS/s.StoryDSA.tex'.
+   Trying pattern rule with stem `StoryDSA'.
+   Trying implicit prerequisite `StoryDSA.w'.
+   Looking for a rule with intermediate file `StoryDSA.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `StoryDSA.w'.
+    Trying implicit prerequisite `StoryDSA.w,v'.
+    Trying pattern rule with stem `StoryDSA.w'.
+    Trying implicit prerequisite `RCS/StoryDSA.w,v'.
+    Trying pattern rule with stem `StoryDSA.w'.
+    Trying implicit prerequisite `RCS/StoryDSA.w'.
+    Trying pattern rule with stem `StoryDSA.w'.
+    Trying implicit prerequisite `s.StoryDSA.w'.
+    Trying pattern rule with stem `StoryDSA.w'.
+    Trying implicit prerequisite `SCCS/s.StoryDSA.w'.
+   Trying pattern rule with stem `StoryDSA'.
+   Trying implicit prerequisite `StoryDSA.web'.
+   Looking for a rule with intermediate file `StoryDSA.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `StoryDSA.web'.
+    Trying implicit prerequisite `StoryDSA.web,v'.
+    Trying pattern rule with stem `StoryDSA.web'.
+    Trying implicit prerequisite `RCS/StoryDSA.web,v'.
+    Trying pattern rule with stem `StoryDSA.web'.
+    Trying implicit prerequisite `RCS/StoryDSA.web'.
+    Trying pattern rule with stem `StoryDSA.web'.
+    Trying implicit prerequisite `s.StoryDSA.web'.
+    Trying pattern rule with stem `StoryDSA.web'.
+    Trying implicit prerequisite `SCCS/s.StoryDSA.web'.
+   Trying pattern rule with stem `StoryDSA'.
+   Rejecting impossible implicit prerequisite `StoryDSA.w'.
+   No implicit rule found for `StoryDSA.tex'.
+   Finished prerequisites of target file `StoryDSA.tex'.
+  No need to remake target `StoryDSA.tex'.
+  Considering target file `StoryDSA_Mode.tex'.
+   Looking for an implicit rule for `StoryDSA_Mode.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode'.
+   Trying implicit prerequisite `StoryDSA_Mode.w'.
+   Trying pattern rule with stem `StoryDSA_Mode'.
+   Trying implicit prerequisite `StoryDSA_Mode.web'.
+   Trying pattern rule with stem `StoryDSA_Mode'.
+   Trying implicit prerequisite `StoryDSA_Mode.w'.
+   Trying pattern rule with stem `StoryDSA_Mode.tex'.
+   Trying implicit prerequisite `StoryDSA_Mode.tex,v'.
+   Trying pattern rule with stem `StoryDSA_Mode.tex'.
+   Trying implicit prerequisite `RCS/StoryDSA_Mode.tex,v'.
+   Trying pattern rule with stem `StoryDSA_Mode.tex'.
+   Trying implicit prerequisite `RCS/StoryDSA_Mode.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode.tex'.
+   Trying implicit prerequisite `s.StoryDSA_Mode.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode.tex'.
+   Trying implicit prerequisite `SCCS/s.StoryDSA_Mode.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode'.
+   Trying implicit prerequisite `StoryDSA_Mode.w'.
+   Looking for a rule with intermediate file `StoryDSA_Mode.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `StoryDSA_Mode.w'.
+    Trying implicit prerequisite `StoryDSA_Mode.w,v'.
+    Trying pattern rule with stem `StoryDSA_Mode.w'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode.w,v'.
+    Trying pattern rule with stem `StoryDSA_Mode.w'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode.w'.
+    Trying pattern rule with stem `StoryDSA_Mode.w'.
+    Trying implicit prerequisite `s.StoryDSA_Mode.w'.
+    Trying pattern rule with stem `StoryDSA_Mode.w'.
+    Trying implicit prerequisite `SCCS/s.StoryDSA_Mode.w'.
+   Trying pattern rule with stem `StoryDSA_Mode'.
+   Trying implicit prerequisite `StoryDSA_Mode.web'.
+   Looking for a rule with intermediate file `StoryDSA_Mode.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `StoryDSA_Mode.web'.
+    Trying implicit prerequisite `StoryDSA_Mode.web,v'.
+    Trying pattern rule with stem `StoryDSA_Mode.web'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode.web,v'.
+    Trying pattern rule with stem `StoryDSA_Mode.web'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode.web'.
+    Trying pattern rule with stem `StoryDSA_Mode.web'.
+    Trying implicit prerequisite `s.StoryDSA_Mode.web'.
+    Trying pattern rule with stem `StoryDSA_Mode.web'.
+    Trying implicit prerequisite `SCCS/s.StoryDSA_Mode.web'.
+   Trying pattern rule with stem `StoryDSA_Mode'.
+   Rejecting impossible implicit prerequisite `StoryDSA_Mode.w'.
+   No implicit rule found for `StoryDSA_Mode.tex'.
+   Finished prerequisites of target file `StoryDSA_Mode.tex'.
+  No need to remake target `StoryDSA_Mode.tex'.
+  Considering target file `StoryDSA_Mode_draft.tex'.
+   Looking for an implicit rule for `StoryDSA_Mode_draft.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode_draft'.
+   Trying implicit prerequisite `StoryDSA_Mode_draft.w'.
+   Trying pattern rule with stem `StoryDSA_Mode_draft'.
+   Trying implicit prerequisite `StoryDSA_Mode_draft.web'.
+   Trying pattern rule with stem `StoryDSA_Mode_draft'.
+   Trying implicit prerequisite `StoryDSA_Mode_draft.w'.
+   Trying pattern rule with stem `StoryDSA_Mode_draft.tex'.
+   Trying implicit prerequisite `StoryDSA_Mode_draft.tex,v'.
+   Trying pattern rule with stem `StoryDSA_Mode_draft.tex'.
+   Trying implicit prerequisite `RCS/StoryDSA_Mode_draft.tex,v'.
+   Trying pattern rule with stem `StoryDSA_Mode_draft.tex'.
+   Trying implicit prerequisite `RCS/StoryDSA_Mode_draft.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode_draft.tex'.
+   Trying implicit prerequisite `s.StoryDSA_Mode_draft.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode_draft.tex'.
+   Trying implicit prerequisite `SCCS/s.StoryDSA_Mode_draft.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode_draft'.
+   Trying implicit prerequisite `StoryDSA_Mode_draft.w'.
+   Looking for a rule with intermediate file `StoryDSA_Mode_draft.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `StoryDSA_Mode_draft.w'.
+    Trying implicit prerequisite `StoryDSA_Mode_draft.w,v'.
+    Trying pattern rule with stem `StoryDSA_Mode_draft.w'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode_draft.w,v'.
+    Trying pattern rule with stem `StoryDSA_Mode_draft.w'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode_draft.w'.
+    Trying pattern rule with stem `StoryDSA_Mode_draft.w'.
+    Trying implicit prerequisite `s.StoryDSA_Mode_draft.w'.
+    Trying pattern rule with stem `StoryDSA_Mode_draft.w'.
+    Trying implicit prerequisite `SCCS/s.StoryDSA_Mode_draft.w'.
+   Trying pattern rule with stem `StoryDSA_Mode_draft'.
+   Trying implicit prerequisite `StoryDSA_Mode_draft.web'.
+   Looking for a rule with intermediate file `StoryDSA_Mode_draft.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `StoryDSA_Mode_draft.web'.
+    Trying implicit prerequisite `StoryDSA_Mode_draft.web,v'.
+    Trying pattern rule with stem `StoryDSA_Mode_draft.web'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode_draft.web,v'.
+    Trying pattern rule with stem `StoryDSA_Mode_draft.web'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode_draft.web'.
+    Trying pattern rule with stem `StoryDSA_Mode_draft.web'.
+    Trying implicit prerequisite `s.StoryDSA_Mode_draft.web'.
+    Trying pattern rule with stem `StoryDSA_Mode_draft.web'.
+    Trying implicit prerequisite `SCCS/s.StoryDSA_Mode_draft.web'.
+   Trying pattern rule with stem `StoryDSA_Mode_draft'.
+   Rejecting impossible implicit prerequisite `StoryDSA_Mode_draft.w'.
+   No implicit rule found for `StoryDSA_Mode_draft.tex'.
+   Finished prerequisites of target file `StoryDSA_Mode_draft.tex'.
+  No need to remake target `StoryDSA_Mode_draft.tex'.
+  Considering target file `StoryDSA_Mode_final.tex'.
+   Looking for an implicit rule for `StoryDSA_Mode_final.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode_final'.
+   Trying implicit prerequisite `StoryDSA_Mode_final.w'.
+   Trying pattern rule with stem `StoryDSA_Mode_final'.
+   Trying implicit prerequisite `StoryDSA_Mode_final.web'.
+   Trying pattern rule with stem `StoryDSA_Mode_final'.
+   Trying implicit prerequisite `StoryDSA_Mode_final.w'.
+   Trying pattern rule with stem `StoryDSA_Mode_final.tex'.
+   Trying implicit prerequisite `StoryDSA_Mode_final.tex,v'.
+   Trying pattern rule with stem `StoryDSA_Mode_final.tex'.
+   Trying implicit prerequisite `RCS/StoryDSA_Mode_final.tex,v'.
+   Trying pattern rule with stem `StoryDSA_Mode_final.tex'.
+   Trying implicit prerequisite `RCS/StoryDSA_Mode_final.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode_final.tex'.
+   Trying implicit prerequisite `s.StoryDSA_Mode_final.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode_final.tex'.
+   Trying implicit prerequisite `SCCS/s.StoryDSA_Mode_final.tex'.
+   Trying pattern rule with stem `StoryDSA_Mode_final'.
+   Trying implicit prerequisite `StoryDSA_Mode_final.w'.
+   Looking for a rule with intermediate file `StoryDSA_Mode_final.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `StoryDSA_Mode_final.w'.
+    Trying implicit prerequisite `StoryDSA_Mode_final.w,v'.
+    Trying pattern rule with stem `StoryDSA_Mode_final.w'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode_final.w,v'.
+    Trying pattern rule with stem `StoryDSA_Mode_final.w'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode_final.w'.
+    Trying pattern rule with stem `StoryDSA_Mode_final.w'.
+    Trying implicit prerequisite `s.StoryDSA_Mode_final.w'.
+    Trying pattern rule with stem `StoryDSA_Mode_final.w'.
+    Trying implicit prerequisite `SCCS/s.StoryDSA_Mode_final.w'.
+   Trying pattern rule with stem `StoryDSA_Mode_final'.
+   Trying implicit prerequisite `StoryDSA_Mode_final.web'.
+   Looking for a rule with intermediate file `StoryDSA_Mode_final.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `StoryDSA_Mode_final.web'.
+    Trying implicit prerequisite `StoryDSA_Mode_final.web,v'.
+    Trying pattern rule with stem `StoryDSA_Mode_final.web'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode_final.web,v'.
+    Trying pattern rule with stem `StoryDSA_Mode_final.web'.
+    Trying implicit prerequisite `RCS/StoryDSA_Mode_final.web'.
+    Trying pattern rule with stem `StoryDSA_Mode_final.web'.
+    Trying implicit prerequisite `s.StoryDSA_Mode_final.web'.
+    Trying pattern rule with stem `StoryDSA_Mode_final.web'.
+    Trying implicit prerequisite `SCCS/s.StoryDSA_Mode_final.web'.
+   Trying pattern rule with stem `StoryDSA_Mode_final'.
+   Rejecting impossible implicit prerequisite `StoryDSA_Mode_final.w'.
+   No implicit rule found for `StoryDSA_Mode_final.tex'.
+   Finished prerequisites of target file `StoryDSA_Mode_final.tex'.
+  No need to remake target `StoryDSA_Mode_final.tex'.
+  Considering target file `include/AbenteuerVorbereiten.tex'.
+   Looking for an implicit rule for `include/AbenteuerVorbereiten.tex'.
+   Trying pattern rule with stem `AbenteuerVorbereiten'.
+   Trying implicit prerequisite `include/AbenteuerVorbereiten.w'.
+   Trying pattern rule with stem `AbenteuerVorbereiten'.
+   Trying implicit prerequisite `include/AbenteuerVorbereiten.web'.
+   Trying pattern rule with stem `AbenteuerVorbereiten'.
+   Trying implicit prerequisite `include/AbenteuerVorbereiten.w'.
+   Trying pattern rule with stem `AbenteuerVorbereiten.tex'.
+   Trying implicit prerequisite `include/AbenteuerVorbereiten.tex,v'.
+   Trying pattern rule with stem `AbenteuerVorbereiten.tex'.
+   Trying implicit prerequisite `include/RCS/AbenteuerVorbereiten.tex,v'.
+   Trying pattern rule with stem `AbenteuerVorbereiten.tex'.
+   Trying implicit prerequisite `include/RCS/AbenteuerVorbereiten.tex'.
+   Trying pattern rule with stem `AbenteuerVorbereiten.tex'.
+   Trying implicit prerequisite `include/s.AbenteuerVorbereiten.tex'.
+   Trying pattern rule with stem `AbenteuerVorbereiten.tex'.
+   Trying implicit prerequisite `include/SCCS/s.AbenteuerVorbereiten.tex'.
+   Trying pattern rule with stem `AbenteuerVorbereiten'.
+   Trying implicit prerequisite `include/AbenteuerVorbereiten.w'.
+   Looking for a rule with intermediate file `include/AbenteuerVorbereiten.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `AbenteuerVorbereiten.w'.
+    Trying implicit prerequisite `include/AbenteuerVorbereiten.w,v'.
+    Trying pattern rule with stem `AbenteuerVorbereiten.w'.
+    Trying implicit prerequisite `include/RCS/AbenteuerVorbereiten.w,v'.
+    Trying pattern rule with stem `AbenteuerVorbereiten.w'.
+    Trying implicit prerequisite `include/RCS/AbenteuerVorbereiten.w'.
+    Trying pattern rule with stem `AbenteuerVorbereiten.w'.
+    Trying implicit prerequisite `include/s.AbenteuerVorbereiten.w'.
+    Trying pattern rule with stem `AbenteuerVorbereiten.w'.
+    Trying implicit prerequisite `include/SCCS/s.AbenteuerVorbereiten.w'.
+   Trying pattern rule with stem `AbenteuerVorbereiten'.
+   Trying implicit prerequisite `include/AbenteuerVorbereiten.web'.
+   Looking for a rule with intermediate file `include/AbenteuerVorbereiten.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `AbenteuerVorbereiten.web'.
+    Trying implicit prerequisite `include/AbenteuerVorbereiten.web,v'.
+    Trying pattern rule with stem `AbenteuerVorbereiten.web'.
+    Trying implicit prerequisite `include/RCS/AbenteuerVorbereiten.web,v'.
+    Trying pattern rule with stem `AbenteuerVorbereiten.web'.
+    Trying implicit prerequisite `include/RCS/AbenteuerVorbereiten.web'.
+    Trying pattern rule with stem `AbenteuerVorbereiten.web'.
+    Trying implicit prerequisite `include/s.AbenteuerVorbereiten.web'.
+    Trying pattern rule with stem `AbenteuerVorbereiten.web'.
+    Trying implicit prerequisite `include/SCCS/s.AbenteuerVorbereiten.web'.
+   Trying pattern rule with stem `AbenteuerVorbereiten'.
+   Rejecting impossible implicit prerequisite `include/AbenteuerVorbereiten.w'.
+   No implicit rule found for `include/AbenteuerVorbereiten.tex'.
+   Finished prerequisites of target file `include/AbenteuerVorbereiten.tex'.
+  No need to remake target `include/AbenteuerVorbereiten.tex'.
+  Considering target file `include/Begriffe.tex'.
+   Looking for an implicit rule for `include/Begriffe.tex'.
+   Trying pattern rule with stem `Begriffe'.
+   Trying implicit prerequisite `include/Begriffe.w'.
+   Trying pattern rule with stem `Begriffe'.
+   Trying implicit prerequisite `include/Begriffe.web'.
+   Trying pattern rule with stem `Begriffe'.
+   Trying implicit prerequisite `include/Begriffe.w'.
+   Trying pattern rule with stem `Begriffe.tex'.
+   Trying implicit prerequisite `include/Begriffe.tex,v'.
+   Trying pattern rule with stem `Begriffe.tex'.
+   Trying implicit prerequisite `include/RCS/Begriffe.tex,v'.
+   Trying pattern rule with stem `Begriffe.tex'.
+   Trying implicit prerequisite `include/RCS/Begriffe.tex'.
+   Trying pattern rule with stem `Begriffe.tex'.
+   Trying implicit prerequisite `include/s.Begriffe.tex'.
+   Trying pattern rule with stem `Begriffe.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Begriffe.tex'.
+   Trying pattern rule with stem `Begriffe'.
+   Trying implicit prerequisite `include/Begriffe.w'.
+   Looking for a rule with intermediate file `include/Begriffe.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Begriffe.w'.
+    Trying implicit prerequisite `include/Begriffe.w,v'.
+    Trying pattern rule with stem `Begriffe.w'.
+    Trying implicit prerequisite `include/RCS/Begriffe.w,v'.
+    Trying pattern rule with stem `Begriffe.w'.
+    Trying implicit prerequisite `include/RCS/Begriffe.w'.
+    Trying pattern rule with stem `Begriffe.w'.
+    Trying implicit prerequisite `include/s.Begriffe.w'.
+    Trying pattern rule with stem `Begriffe.w'.
+    Trying implicit prerequisite `include/SCCS/s.Begriffe.w'.
+   Trying pattern rule with stem `Begriffe'.
+   Trying implicit prerequisite `include/Begriffe.web'.
+   Looking for a rule with intermediate file `include/Begriffe.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Begriffe.web'.
+    Trying implicit prerequisite `include/Begriffe.web,v'.
+    Trying pattern rule with stem `Begriffe.web'.
+    Trying implicit prerequisite `include/RCS/Begriffe.web,v'.
+    Trying pattern rule with stem `Begriffe.web'.
+    Trying implicit prerequisite `include/RCS/Begriffe.web'.
+    Trying pattern rule with stem `Begriffe.web'.
+    Trying implicit prerequisite `include/s.Begriffe.web'.
+    Trying pattern rule with stem `Begriffe.web'.
+    Trying implicit prerequisite `include/SCCS/s.Begriffe.web'.
+   Trying pattern rule with stem `Begriffe'.
+   Rejecting impossible implicit prerequisite `include/Begriffe.w'.
+   No implicit rule found for `include/Begriffe.tex'.
+   Finished prerequisites of target file `include/Begriffe.tex'.
+  No need to remake target `include/Begriffe.tex'.
+  Considering target file `include/Beispielcharaktere.tex'.
+   Looking for an implicit rule for `include/Beispielcharaktere.tex'.
+   Trying pattern rule with stem `Beispielcharaktere'.
+   Trying implicit prerequisite `include/Beispielcharaktere.w'.
+   Trying pattern rule with stem `Beispielcharaktere'.
+   Trying implicit prerequisite `include/Beispielcharaktere.web'.
+   Trying pattern rule with stem `Beispielcharaktere'.
+   Trying implicit prerequisite `include/Beispielcharaktere.w'.
+   Trying pattern rule with stem `Beispielcharaktere.tex'.
+   Trying implicit prerequisite `include/Beispielcharaktere.tex,v'.
+   Trying pattern rule with stem `Beispielcharaktere.tex'.
+   Trying implicit prerequisite `include/RCS/Beispielcharaktere.tex,v'.
+   Trying pattern rule with stem `Beispielcharaktere.tex'.
+   Trying implicit prerequisite `include/RCS/Beispielcharaktere.tex'.
+   Trying pattern rule with stem `Beispielcharaktere.tex'.
+   Trying implicit prerequisite `include/s.Beispielcharaktere.tex'.
+   Trying pattern rule with stem `Beispielcharaktere.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Beispielcharaktere.tex'.
+   Trying pattern rule with stem `Beispielcharaktere'.
+   Trying implicit prerequisite `include/Beispielcharaktere.w'.
+   Looking for a rule with intermediate file `include/Beispielcharaktere.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Beispielcharaktere.w'.
+    Trying implicit prerequisite `include/Beispielcharaktere.w,v'.
+    Trying pattern rule with stem `Beispielcharaktere.w'.
+    Trying implicit prerequisite `include/RCS/Beispielcharaktere.w,v'.
+    Trying pattern rule with stem `Beispielcharaktere.w'.
+    Trying implicit prerequisite `include/RCS/Beispielcharaktere.w'.
+    Trying pattern rule with stem `Beispielcharaktere.w'.
+    Trying implicit prerequisite `include/s.Beispielcharaktere.w'.
+    Trying pattern rule with stem `Beispielcharaktere.w'.
+    Trying implicit prerequisite `include/SCCS/s.Beispielcharaktere.w'.
+   Trying pattern rule with stem `Beispielcharaktere'.
+   Trying implicit prerequisite `include/Beispielcharaktere.web'.
+   Looking for a rule with intermediate file `include/Beispielcharaktere.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Beispielcharaktere.web'.
+    Trying implicit prerequisite `include/Beispielcharaktere.web,v'.
+    Trying pattern rule with stem `Beispielcharaktere.web'.
+    Trying implicit prerequisite `include/RCS/Beispielcharaktere.web,v'.
+    Trying pattern rule with stem `Beispielcharaktere.web'.
+    Trying implicit prerequisite `include/RCS/Beispielcharaktere.web'.
+    Trying pattern rule with stem `Beispielcharaktere.web'.
+    Trying implicit prerequisite `include/s.Beispielcharaktere.web'.
+    Trying pattern rule with stem `Beispielcharaktere.web'.
+    Trying implicit prerequisite `include/SCCS/s.Beispielcharaktere.web'.
+   Trying pattern rule with stem `Beispielcharaktere'.
+   Rejecting impossible implicit prerequisite `include/Beispielcharaktere.w'.
+   No implicit rule found for `include/Beispielcharaktere.tex'.
+   Finished prerequisites of target file `include/Beispielcharaktere.tex'.
+  No need to remake target `include/Beispielcharaktere.tex'.
+  Considering target file `include/Charaktererschaffung.tex'.
+   Looking for an implicit rule for `include/Charaktererschaffung.tex'.
+   Trying pattern rule with stem `Charaktererschaffung'.
+   Trying implicit prerequisite `include/Charaktererschaffung.w'.
+   Trying pattern rule with stem `Charaktererschaffung'.
+   Trying implicit prerequisite `include/Charaktererschaffung.web'.
+   Trying pattern rule with stem `Charaktererschaffung'.
+   Trying implicit prerequisite `include/Charaktererschaffung.w'.
+   Trying pattern rule with stem `Charaktererschaffung.tex'.
+   Trying implicit prerequisite `include/Charaktererschaffung.tex,v'.
+   Trying pattern rule with stem `Charaktererschaffung.tex'.
+   Trying implicit prerequisite `include/RCS/Charaktererschaffung.tex,v'.
+   Trying pattern rule with stem `Charaktererschaffung.tex'.
+   Trying implicit prerequisite `include/RCS/Charaktererschaffung.tex'.
+   Trying pattern rule with stem `Charaktererschaffung.tex'.
+   Trying implicit prerequisite `include/s.Charaktererschaffung.tex'.
+   Trying pattern rule with stem `Charaktererschaffung.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Charaktererschaffung.tex'.
+   Trying pattern rule with stem `Charaktererschaffung'.
+   Trying implicit prerequisite `include/Charaktererschaffung.w'.
+   Looking for a rule with intermediate file `include/Charaktererschaffung.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Charaktererschaffung.w'.
+    Trying implicit prerequisite `include/Charaktererschaffung.w,v'.
+    Trying pattern rule with stem `Charaktererschaffung.w'.
+    Trying implicit prerequisite `include/RCS/Charaktererschaffung.w,v'.
+    Trying pattern rule with stem `Charaktererschaffung.w'.
+    Trying implicit prerequisite `include/RCS/Charaktererschaffung.w'.
+    Trying pattern rule with stem `Charaktererschaffung.w'.
+    Trying implicit prerequisite `include/s.Charaktererschaffung.w'.
+    Trying pattern rule with stem `Charaktererschaffung.w'.
+    Trying implicit prerequisite `include/SCCS/s.Charaktererschaffung.w'.
+   Trying pattern rule with stem `Charaktererschaffung'.
+   Trying implicit prerequisite `include/Charaktererschaffung.web'.
+   Looking for a rule with intermediate file `include/Charaktererschaffung.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Charaktererschaffung.web'.
+    Trying implicit prerequisite `include/Charaktererschaffung.web,v'.
+    Trying pattern rule with stem `Charaktererschaffung.web'.
+    Trying implicit prerequisite `include/RCS/Charaktererschaffung.web,v'.
+    Trying pattern rule with stem `Charaktererschaffung.web'.
+    Trying implicit prerequisite `include/RCS/Charaktererschaffung.web'.
+    Trying pattern rule with stem `Charaktererschaffung.web'.
+    Trying implicit prerequisite `include/s.Charaktererschaffung.web'.
+    Trying pattern rule with stem `Charaktererschaffung.web'.
+    Trying implicit prerequisite `include/SCCS/s.Charaktererschaffung.web'.
+   Trying pattern rule with stem `Charaktererschaffung'.
+   Rejecting impossible implicit prerequisite `include/Charaktererschaffung.w'.
+   No implicit rule found for `include/Charaktererschaffung.tex'.
+   Finished prerequisites of target file `include/Charaktererschaffung.tex'.
+  No need to remake target `include/Charaktererschaffung.tex'.
+  Considering target file `include/Einleitung.tex'.
+   Looking for an implicit rule for `include/Einleitung.tex'.
+   Trying pattern rule with stem `Einleitung'.
+   Trying implicit prerequisite `include/Einleitung.w'.
+   Trying pattern rule with stem `Einleitung'.
+   Trying implicit prerequisite `include/Einleitung.web'.
+   Trying pattern rule with stem `Einleitung'.
+   Trying implicit prerequisite `include/Einleitung.w'.
+   Trying pattern rule with stem `Einleitung.tex'.
+   Trying implicit prerequisite `include/Einleitung.tex,v'.
+   Trying pattern rule with stem `Einleitung.tex'.
+   Trying implicit prerequisite `include/RCS/Einleitung.tex,v'.
+   Trying pattern rule with stem `Einleitung.tex'.
+   Trying implicit prerequisite `include/RCS/Einleitung.tex'.
+   Trying pattern rule with stem `Einleitung.tex'.
+   Trying implicit prerequisite `include/s.Einleitung.tex'.
+   Trying pattern rule with stem `Einleitung.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Einleitung.tex'.
+   Trying pattern rule with stem `Einleitung'.
+   Trying implicit prerequisite `include/Einleitung.w'.
+   Looking for a rule with intermediate file `include/Einleitung.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Einleitung.w'.
+    Trying implicit prerequisite `include/Einleitung.w,v'.
+    Trying pattern rule with stem `Einleitung.w'.
+    Trying implicit prerequisite `include/RCS/Einleitung.w,v'.
+    Trying pattern rule with stem `Einleitung.w'.
+    Trying implicit prerequisite `include/RCS/Einleitung.w'.
+    Trying pattern rule with stem `Einleitung.w'.
+    Trying implicit prerequisite `include/s.Einleitung.w'.
+    Trying pattern rule with stem `Einleitung.w'.
+    Trying implicit prerequisite `include/SCCS/s.Einleitung.w'.
+   Trying pattern rule with stem `Einleitung'.
+   Trying implicit prerequisite `include/Einleitung.web'.
+   Looking for a rule with intermediate file `include/Einleitung.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Einleitung.web'.
+    Trying implicit prerequisite `include/Einleitung.web,v'.
+    Trying pattern rule with stem `Einleitung.web'.
+    Trying implicit prerequisite `include/RCS/Einleitung.web,v'.
+    Trying pattern rule with stem `Einleitung.web'.
+    Trying implicit prerequisite `include/RCS/Einleitung.web'.
+    Trying pattern rule with stem `Einleitung.web'.
+    Trying implicit prerequisite `include/s.Einleitung.web'.
+    Trying pattern rule with stem `Einleitung.web'.
+    Trying implicit prerequisite `include/SCCS/s.Einleitung.web'.
+   Trying pattern rule with stem `Einleitung'.
+   Rejecting impossible implicit prerequisite `include/Einleitung.w'.
+   No implicit rule found for `include/Einleitung.tex'.
+   Finished prerequisites of target file `include/Einleitung.tex'.
+  No need to remake target `include/Einleitung.tex'.
+  Considering target file `include/Erzaehlungen.tex'.
+   Looking for an implicit rule for `include/Erzaehlungen.tex'.
+   Trying pattern rule with stem `Erzaehlungen'.
+   Trying implicit prerequisite `include/Erzaehlungen.w'.
+   Trying pattern rule with stem `Erzaehlungen'.
+   Trying implicit prerequisite `include/Erzaehlungen.web'.
+   Trying pattern rule with stem `Erzaehlungen'.
+   Trying implicit prerequisite `include/Erzaehlungen.w'.
+   Trying pattern rule with stem `Erzaehlungen.tex'.
+   Trying implicit prerequisite `include/Erzaehlungen.tex,v'.
+   Trying pattern rule with stem `Erzaehlungen.tex'.
+   Trying implicit prerequisite `include/RCS/Erzaehlungen.tex,v'.
+   Trying pattern rule with stem `Erzaehlungen.tex'.
+   Trying implicit prerequisite `include/RCS/Erzaehlungen.tex'.
+   Trying pattern rule with stem `Erzaehlungen.tex'.
+   Trying implicit prerequisite `include/s.Erzaehlungen.tex'.
+   Trying pattern rule with stem `Erzaehlungen.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Erzaehlungen.tex'.
+   Trying pattern rule with stem `Erzaehlungen'.
+   Trying implicit prerequisite `include/Erzaehlungen.w'.
+   Looking for a rule with intermediate file `include/Erzaehlungen.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Erzaehlungen.w'.
+    Trying implicit prerequisite `include/Erzaehlungen.w,v'.
+    Trying pattern rule with stem `Erzaehlungen.w'.
+    Trying implicit prerequisite `include/RCS/Erzaehlungen.w,v'.
+    Trying pattern rule with stem `Erzaehlungen.w'.
+    Trying implicit prerequisite `include/RCS/Erzaehlungen.w'.
+    Trying pattern rule with stem `Erzaehlungen.w'.
+    Trying implicit prerequisite `include/s.Erzaehlungen.w'.
+    Trying pattern rule with stem `Erzaehlungen.w'.
+    Trying implicit prerequisite `include/SCCS/s.Erzaehlungen.w'.
+   Trying pattern rule with stem `Erzaehlungen'.
+   Trying implicit prerequisite `include/Erzaehlungen.web'.
+   Looking for a rule with intermediate file `include/Erzaehlungen.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Erzaehlungen.web'.
+    Trying implicit prerequisite `include/Erzaehlungen.web,v'.
+    Trying pattern rule with stem `Erzaehlungen.web'.
+    Trying implicit prerequisite `include/RCS/Erzaehlungen.web,v'.
+    Trying pattern rule with stem `Erzaehlungen.web'.
+    Trying implicit prerequisite `include/RCS/Erzaehlungen.web'.
+    Trying pattern rule with stem `Erzaehlungen.web'.
+    Trying implicit prerequisite `include/s.Erzaehlungen.web'.
+    Trying pattern rule with stem `Erzaehlungen.web'.
+    Trying implicit prerequisite `include/SCCS/s.Erzaehlungen.web'.
+   Trying pattern rule with stem `Erzaehlungen'.
+   Rejecting impossible implicit prerequisite `include/Erzaehlungen.w'.
+   No implicit rule found for `include/Erzaehlungen.tex'.
+   Finished prerequisites of target file `include/Erzaehlungen.tex'.
+  No need to remake target `include/Erzaehlungen.tex'.
+  Considering target file `include/FreiesSpiel.tex'.
+   Looking for an implicit rule for `include/FreiesSpiel.tex'.
+   Trying pattern rule with stem `FreiesSpiel'.
+   Trying implicit prerequisite `include/FreiesSpiel.w'.
+   Trying pattern rule with stem `FreiesSpiel'.
+   Trying implicit prerequisite `include/FreiesSpiel.web'.
+   Trying pattern rule with stem `FreiesSpiel'.
+   Trying implicit prerequisite `include/FreiesSpiel.w'.
+   Trying pattern rule with stem `FreiesSpiel.tex'.
+   Trying implicit prerequisite `include/FreiesSpiel.tex,v'.
+   Trying pattern rule with stem `FreiesSpiel.tex'.
+   Trying implicit prerequisite `include/RCS/FreiesSpiel.tex,v'.
+   Trying pattern rule with stem `FreiesSpiel.tex'.
+   Trying implicit prerequisite `include/RCS/FreiesSpiel.tex'.
+   Trying pattern rule with stem `FreiesSpiel.tex'.
+   Trying implicit prerequisite `include/s.FreiesSpiel.tex'.
+   Trying pattern rule with stem `FreiesSpiel.tex'.
+   Trying implicit prerequisite `include/SCCS/s.FreiesSpiel.tex'.
+   Trying pattern rule with stem `FreiesSpiel'.
+   Trying implicit prerequisite `include/FreiesSpiel.w'.
+   Looking for a rule with intermediate file `include/FreiesSpiel.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `FreiesSpiel.w'.
+    Trying implicit prerequisite `include/FreiesSpiel.w,v'.
+    Trying pattern rule with stem `FreiesSpiel.w'.
+    Trying implicit prerequisite `include/RCS/FreiesSpiel.w,v'.
+    Trying pattern rule with stem `FreiesSpiel.w'.
+    Trying implicit prerequisite `include/RCS/FreiesSpiel.w'.
+    Trying pattern rule with stem `FreiesSpiel.w'.
+    Trying implicit prerequisite `include/s.FreiesSpiel.w'.
+    Trying pattern rule with stem `FreiesSpiel.w'.
+    Trying implicit prerequisite `include/SCCS/s.FreiesSpiel.w'.
+   Trying pattern rule with stem `FreiesSpiel'.
+   Trying implicit prerequisite `include/FreiesSpiel.web'.
+   Looking for a rule with intermediate file `include/FreiesSpiel.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `FreiesSpiel.web'.
+    Trying implicit prerequisite `include/FreiesSpiel.web,v'.
+    Trying pattern rule with stem `FreiesSpiel.web'.
+    Trying implicit prerequisite `include/RCS/FreiesSpiel.web,v'.
+    Trying pattern rule with stem `FreiesSpiel.web'.
+    Trying implicit prerequisite `include/RCS/FreiesSpiel.web'.
+    Trying pattern rule with stem `FreiesSpiel.web'.
+    Trying implicit prerequisite `include/s.FreiesSpiel.web'.
+    Trying pattern rule with stem `FreiesSpiel.web'.
+    Trying implicit prerequisite `include/SCCS/s.FreiesSpiel.web'.
+   Trying pattern rule with stem `FreiesSpiel'.
+   Rejecting impossible implicit prerequisite `include/FreiesSpiel.w'.
+   No implicit rule found for `include/FreiesSpiel.tex'.
+   Finished prerequisites of target file `include/FreiesSpiel.tex'.
+  No need to remake target `include/FreiesSpiel.tex'.
+  Considering target file `include/Gegenstaende.tex'.
+   Looking for an implicit rule for `include/Gegenstaende.tex'.
+   Trying pattern rule with stem `Gegenstaende'.
+   Trying implicit prerequisite `include/Gegenstaende.w'.
+   Trying pattern rule with stem `Gegenstaende'.
+   Trying implicit prerequisite `include/Gegenstaende.web'.
+   Trying pattern rule with stem `Gegenstaende'.
+   Trying implicit prerequisite `include/Gegenstaende.w'.
+   Trying pattern rule with stem `Gegenstaende.tex'.
+   Trying implicit prerequisite `include/Gegenstaende.tex,v'.
+   Trying pattern rule with stem `Gegenstaende.tex'.
+   Trying implicit prerequisite `include/RCS/Gegenstaende.tex,v'.
+   Trying pattern rule with stem `Gegenstaende.tex'.
+   Trying implicit prerequisite `include/RCS/Gegenstaende.tex'.
+   Trying pattern rule with stem `Gegenstaende.tex'.
+   Trying implicit prerequisite `include/s.Gegenstaende.tex'.
+   Trying pattern rule with stem `Gegenstaende.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Gegenstaende.tex'.
+   Trying pattern rule with stem `Gegenstaende'.
+   Trying implicit prerequisite `include/Gegenstaende.w'.
+   Looking for a rule with intermediate file `include/Gegenstaende.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Gegenstaende.w'.
+    Trying implicit prerequisite `include/Gegenstaende.w,v'.
+    Trying pattern rule with stem `Gegenstaende.w'.
+    Trying implicit prerequisite `include/RCS/Gegenstaende.w,v'.
+    Trying pattern rule with stem `Gegenstaende.w'.
+    Trying implicit prerequisite `include/RCS/Gegenstaende.w'.
+    Trying pattern rule with stem `Gegenstaende.w'.
+    Trying implicit prerequisite `include/s.Gegenstaende.w'.
+    Trying pattern rule with stem `Gegenstaende.w'.
+    Trying implicit prerequisite `include/SCCS/s.Gegenstaende.w'.
+   Trying pattern rule with stem `Gegenstaende'.
+   Trying implicit prerequisite `include/Gegenstaende.web'.
+   Looking for a rule with intermediate file `include/Gegenstaende.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Gegenstaende.web'.
+    Trying implicit prerequisite `include/Gegenstaende.web,v'.
+    Trying pattern rule with stem `Gegenstaende.web'.
+    Trying implicit prerequisite `include/RCS/Gegenstaende.web,v'.
+    Trying pattern rule with stem `Gegenstaende.web'.
+    Trying implicit prerequisite `include/RCS/Gegenstaende.web'.
+    Trying pattern rule with stem `Gegenstaende.web'.
+    Trying implicit prerequisite `include/s.Gegenstaende.web'.
+    Trying pattern rule with stem `Gegenstaende.web'.
+    Trying implicit prerequisite `include/SCCS/s.Gegenstaende.web'.
+   Trying pattern rule with stem `Gegenstaende'.
+   Rejecting impossible implicit prerequisite `include/Gegenstaende.w'.
+   No implicit rule found for `include/Gegenstaende.tex'.
+   Finished prerequisites of target file `include/Gegenstaende.tex'.
+  No need to remake target `include/Gegenstaende.tex'.
+  Considering target file `include/Geweihte.tex'.
+   Looking for an implicit rule for `include/Geweihte.tex'.
+   Trying pattern rule with stem `Geweihte'.
+   Trying implicit prerequisite `include/Geweihte.w'.
+   Trying pattern rule with stem `Geweihte'.
+   Trying implicit prerequisite `include/Geweihte.web'.
+   Trying pattern rule with stem `Geweihte'.
+   Trying implicit prerequisite `include/Geweihte.w'.
+   Trying pattern rule with stem `Geweihte.tex'.
+   Trying implicit prerequisite `include/Geweihte.tex,v'.
+   Trying pattern rule with stem `Geweihte.tex'.
+   Trying implicit prerequisite `include/RCS/Geweihte.tex,v'.
+   Trying pattern rule with stem `Geweihte.tex'.
+   Trying implicit prerequisite `include/RCS/Geweihte.tex'.
+   Trying pattern rule with stem `Geweihte.tex'.
+   Trying implicit prerequisite `include/s.Geweihte.tex'.
+   Trying pattern rule with stem `Geweihte.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Geweihte.tex'.
+   Trying pattern rule with stem `Geweihte'.
+   Trying implicit prerequisite `include/Geweihte.w'.
+   Looking for a rule with intermediate file `include/Geweihte.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Geweihte.w'.
+    Trying implicit prerequisite `include/Geweihte.w,v'.
+    Trying pattern rule with stem `Geweihte.w'.
+    Trying implicit prerequisite `include/RCS/Geweihte.w,v'.
+    Trying pattern rule with stem `Geweihte.w'.
+    Trying implicit prerequisite `include/RCS/Geweihte.w'.
+    Trying pattern rule with stem `Geweihte.w'.
+    Trying implicit prerequisite `include/s.Geweihte.w'.
+    Trying pattern rule with stem `Geweihte.w'.
+    Trying implicit prerequisite `include/SCCS/s.Geweihte.w'.
+   Trying pattern rule with stem `Geweihte'.
+   Trying implicit prerequisite `include/Geweihte.web'.
+   Looking for a rule with intermediate file `include/Geweihte.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Geweihte.web'.
+    Trying implicit prerequisite `include/Geweihte.web,v'.
+    Trying pattern rule with stem `Geweihte.web'.
+    Trying implicit prerequisite `include/RCS/Geweihte.web,v'.
+    Trying pattern rule with stem `Geweihte.web'.
+    Trying implicit prerequisite `include/RCS/Geweihte.web'.
+    Trying pattern rule with stem `Geweihte.web'.
+    Trying implicit prerequisite `include/s.Geweihte.web'.
+    Trying pattern rule with stem `Geweihte.web'.
+    Trying implicit prerequisite `include/SCCS/s.Geweihte.web'.
+   Trying pattern rule with stem `Geweihte'.
+   Rejecting impossible implicit prerequisite `include/Geweihte.w'.
+   No implicit rule found for `include/Geweihte.tex'.
+   Finished prerequisites of target file `include/Geweihte.tex'.
+  No need to remake target `include/Geweihte.tex'.
+  Considering target file `include/Grundregeln.tex'.
+   Looking for an implicit rule for `include/Grundregeln.tex'.
+   Trying pattern rule with stem `Grundregeln'.
+   Trying implicit prerequisite `include/Grundregeln.w'.
+   Trying pattern rule with stem `Grundregeln'.
+   Trying implicit prerequisite `include/Grundregeln.web'.
+   Trying pattern rule with stem `Grundregeln'.
+   Trying implicit prerequisite `include/Grundregeln.w'.
+   Trying pattern rule with stem `Grundregeln.tex'.
+   Trying implicit prerequisite `include/Grundregeln.tex,v'.
+   Trying pattern rule with stem `Grundregeln.tex'.
+   Trying implicit prerequisite `include/RCS/Grundregeln.tex,v'.
+   Trying pattern rule with stem `Grundregeln.tex'.
+   Trying implicit prerequisite `include/RCS/Grundregeln.tex'.
+   Trying pattern rule with stem `Grundregeln.tex'.
+   Trying implicit prerequisite `include/s.Grundregeln.tex'.
+   Trying pattern rule with stem `Grundregeln.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Grundregeln.tex'.
+   Trying pattern rule with stem `Grundregeln'.
+   Trying implicit prerequisite `include/Grundregeln.w'.
+   Looking for a rule with intermediate file `include/Grundregeln.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Grundregeln.w'.
+    Trying implicit prerequisite `include/Grundregeln.w,v'.
+    Trying pattern rule with stem `Grundregeln.w'.
+    Trying implicit prerequisite `include/RCS/Grundregeln.w,v'.
+    Trying pattern rule with stem `Grundregeln.w'.
+    Trying implicit prerequisite `include/RCS/Grundregeln.w'.
+    Trying pattern rule with stem `Grundregeln.w'.
+    Trying implicit prerequisite `include/s.Grundregeln.w'.
+    Trying pattern rule with stem `Grundregeln.w'.
+    Trying implicit prerequisite `include/SCCS/s.Grundregeln.w'.
+   Trying pattern rule with stem `Grundregeln'.
+   Trying implicit prerequisite `include/Grundregeln.web'.
+   Looking for a rule with intermediate file `include/Grundregeln.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Grundregeln.web'.
+    Trying implicit prerequisite `include/Grundregeln.web,v'.
+    Trying pattern rule with stem `Grundregeln.web'.
+    Trying implicit prerequisite `include/RCS/Grundregeln.web,v'.
+    Trying pattern rule with stem `Grundregeln.web'.
+    Trying implicit prerequisite `include/RCS/Grundregeln.web'.
+    Trying pattern rule with stem `Grundregeln.web'.
+    Trying implicit prerequisite `include/s.Grundregeln.web'.
+    Trying pattern rule with stem `Grundregeln.web'.
+    Trying implicit prerequisite `include/SCCS/s.Grundregeln.web'.
+   Trying pattern rule with stem `Grundregeln'.
+   Rejecting impossible implicit prerequisite `include/Grundregeln.w'.
+   No implicit rule found for `include/Grundregeln.tex'.
+   Finished prerequisites of target file `include/Grundregeln.tex'.
+  No need to remake target `include/Grundregeln.tex'.
+  Considering target file `include/Konflikte.tex'.
+   Looking for an implicit rule for `include/Konflikte.tex'.
+   Trying pattern rule with stem `Konflikte'.
+   Trying implicit prerequisite `include/Konflikte.w'.
+   Trying pattern rule with stem `Konflikte'.
+   Trying implicit prerequisite `include/Konflikte.web'.
+   Trying pattern rule with stem `Konflikte'.
+   Trying implicit prerequisite `include/Konflikte.w'.
+   Trying pattern rule with stem `Konflikte.tex'.
+   Trying implicit prerequisite `include/Konflikte.tex,v'.
+   Trying pattern rule with stem `Konflikte.tex'.
+   Trying implicit prerequisite `include/RCS/Konflikte.tex,v'.
+   Trying pattern rule with stem `Konflikte.tex'.
+   Trying implicit prerequisite `include/RCS/Konflikte.tex'.
+   Trying pattern rule with stem `Konflikte.tex'.
+   Trying implicit prerequisite `include/s.Konflikte.tex'.
+   Trying pattern rule with stem `Konflikte.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Konflikte.tex'.
+   Trying pattern rule with stem `Konflikte'.
+   Trying implicit prerequisite `include/Konflikte.w'.
+   Looking for a rule with intermediate file `include/Konflikte.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Konflikte.w'.
+    Trying implicit prerequisite `include/Konflikte.w,v'.
+    Trying pattern rule with stem `Konflikte.w'.
+    Trying implicit prerequisite `include/RCS/Konflikte.w,v'.
+    Trying pattern rule with stem `Konflikte.w'.
+    Trying implicit prerequisite `include/RCS/Konflikte.w'.
+    Trying pattern rule with stem `Konflikte.w'.
+    Trying implicit prerequisite `include/s.Konflikte.w'.
+    Trying pattern rule with stem `Konflikte.w'.
+    Trying implicit prerequisite `include/SCCS/s.Konflikte.w'.
+   Trying pattern rule with stem `Konflikte'.
+   Trying implicit prerequisite `include/Konflikte.web'.
+   Looking for a rule with intermediate file `include/Konflikte.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Konflikte.web'.
+    Trying implicit prerequisite `include/Konflikte.web,v'.
+    Trying pattern rule with stem `Konflikte.web'.
+    Trying implicit prerequisite `include/RCS/Konflikte.web,v'.
+    Trying pattern rule with stem `Konflikte.web'.
+    Trying implicit prerequisite `include/RCS/Konflikte.web'.
+    Trying pattern rule with stem `Konflikte.web'.
+    Trying implicit prerequisite `include/s.Konflikte.web'.
+    Trying pattern rule with stem `Konflikte.web'.
+    Trying implicit prerequisite `include/SCCS/s.Konflikte.web'.
+   Trying pattern rule with stem `Konflikte'.
+   Rejecting impossible implicit prerequisite `include/Konflikte.w'.
+   No implicit rule found for `include/Konflikte.tex'.
+   Finished prerequisites of target file `include/Konflikte.tex'.
+  No need to remake target `include/Konflikte.tex'.
+  Considering target file `include/Kurzregeln.tex'.
+   Looking for an implicit rule for `include/Kurzregeln.tex'.
+   Trying pattern rule with stem `Kurzregeln'.
+   Trying implicit prerequisite `include/Kurzregeln.w'.
+   Trying pattern rule with stem `Kurzregeln'.
+   Trying implicit prerequisite `include/Kurzregeln.web'.
+   Trying pattern rule with stem `Kurzregeln'.
+   Trying implicit prerequisite `include/Kurzregeln.w'.
+   Trying pattern rule with stem `Kurzregeln.tex'.
+   Trying implicit prerequisite `include/Kurzregeln.tex,v'.
+   Trying pattern rule with stem `Kurzregeln.tex'.
+   Trying implicit prerequisite `include/RCS/Kurzregeln.tex,v'.
+   Trying pattern rule with stem `Kurzregeln.tex'.
+   Trying implicit prerequisite `include/RCS/Kurzregeln.tex'.
+   Trying pattern rule with stem `Kurzregeln.tex'.
+   Trying implicit prerequisite `include/s.Kurzregeln.tex'.
+   Trying pattern rule with stem `Kurzregeln.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Kurzregeln.tex'.
+   Trying pattern rule with stem `Kurzregeln'.
+   Trying implicit prerequisite `include/Kurzregeln.w'.
+   Looking for a rule with intermediate file `include/Kurzregeln.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Kurzregeln.w'.
+    Trying implicit prerequisite `include/Kurzregeln.w,v'.
+    Trying pattern rule with stem `Kurzregeln.w'.
+    Trying implicit prerequisite `include/RCS/Kurzregeln.w,v'.
+    Trying pattern rule with stem `Kurzregeln.w'.
+    Trying implicit prerequisite `include/RCS/Kurzregeln.w'.
+    Trying pattern rule with stem `Kurzregeln.w'.
+    Trying implicit prerequisite `include/s.Kurzregeln.w'.
+    Trying pattern rule with stem `Kurzregeln.w'.
+    Trying implicit prerequisite `include/SCCS/s.Kurzregeln.w'.
+   Trying pattern rule with stem `Kurzregeln'.
+   Trying implicit prerequisite `include/Kurzregeln.web'.
+   Looking for a rule with intermediate file `include/Kurzregeln.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Kurzregeln.web'.
+    Trying implicit prerequisite `include/Kurzregeln.web,v'.
+    Trying pattern rule with stem `Kurzregeln.web'.
+    Trying implicit prerequisite `include/RCS/Kurzregeln.web,v'.
+    Trying pattern rule with stem `Kurzregeln.web'.
+    Trying implicit prerequisite `include/RCS/Kurzregeln.web'.
+    Trying pattern rule with stem `Kurzregeln.web'.
+    Trying implicit prerequisite `include/s.Kurzregeln.web'.
+    Trying pattern rule with stem `Kurzregeln.web'.
+    Trying implicit prerequisite `include/SCCS/s.Kurzregeln.web'.
+   Trying pattern rule with stem `Kurzregeln'.
+   Rejecting impossible implicit prerequisite `include/Kurzregeln.w'.
+   No implicit rule found for `include/Kurzregeln.tex'.
+   Finished prerequisites of target file `include/Kurzregeln.tex'.
+  No need to remake target `include/Kurzregeln.tex'.
+  Considering target file `include/LangzeitSpiel.tex'.
+   Looking for an implicit rule for `include/LangzeitSpiel.tex'.
+   Trying pattern rule with stem `LangzeitSpiel'.
+   Trying implicit prerequisite `include/LangzeitSpiel.w'.
+   Trying pattern rule with stem `LangzeitSpiel'.
+   Trying implicit prerequisite `include/LangzeitSpiel.web'.
+   Trying pattern rule with stem `LangzeitSpiel'.
+   Trying implicit prerequisite `include/LangzeitSpiel.w'.
+   Trying pattern rule with stem `LangzeitSpiel.tex'.
+   Trying implicit prerequisite `include/LangzeitSpiel.tex,v'.
+   Trying pattern rule with stem `LangzeitSpiel.tex'.
+   Trying implicit prerequisite `include/RCS/LangzeitSpiel.tex,v'.
+   Trying pattern rule with stem `LangzeitSpiel.tex'.
+   Trying implicit prerequisite `include/RCS/LangzeitSpiel.tex'.
+   Trying pattern rule with stem `LangzeitSpiel.tex'.
+   Trying implicit prerequisite `include/s.LangzeitSpiel.tex'.
+   Trying pattern rule with stem `LangzeitSpiel.tex'.
+   Trying implicit prerequisite `include/SCCS/s.LangzeitSpiel.tex'.
+   Trying pattern rule with stem `LangzeitSpiel'.
+   Trying implicit prerequisite `include/LangzeitSpiel.w'.
+   Looking for a rule with intermediate file `include/LangzeitSpiel.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `LangzeitSpiel.w'.
+    Trying implicit prerequisite `include/LangzeitSpiel.w,v'.
+    Trying pattern rule with stem `LangzeitSpiel.w'.
+    Trying implicit prerequisite `include/RCS/LangzeitSpiel.w,v'.
+    Trying pattern rule with stem `LangzeitSpiel.w'.
+    Trying implicit prerequisite `include/RCS/LangzeitSpiel.w'.
+    Trying pattern rule with stem `LangzeitSpiel.w'.
+    Trying implicit prerequisite `include/s.LangzeitSpiel.w'.
+    Trying pattern rule with stem `LangzeitSpiel.w'.
+    Trying implicit prerequisite `include/SCCS/s.LangzeitSpiel.w'.
+   Trying pattern rule with stem `LangzeitSpiel'.
+   Trying implicit prerequisite `include/LangzeitSpiel.web'.
+   Looking for a rule with intermediate file `include/LangzeitSpiel.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `LangzeitSpiel.web'.
+    Trying implicit prerequisite `include/LangzeitSpiel.web,v'.
+    Trying pattern rule with stem `LangzeitSpiel.web'.
+    Trying implicit prerequisite `include/RCS/LangzeitSpiel.web,v'.
+    Trying pattern rule with stem `LangzeitSpiel.web'.
+    Trying implicit prerequisite `include/RCS/LangzeitSpiel.web'.
+    Trying pattern rule with stem `LangzeitSpiel.web'.
+    Trying implicit prerequisite `include/s.LangzeitSpiel.web'.
+    Trying pattern rule with stem `LangzeitSpiel.web'.
+    Trying implicit prerequisite `include/SCCS/s.LangzeitSpiel.web'.
+   Trying pattern rule with stem `LangzeitSpiel'.
+   Rejecting impossible implicit prerequisite `include/LangzeitSpiel.w'.
+   No implicit rule found for `include/LangzeitSpiel.tex'.
+   Finished prerequisites of target file `include/LangzeitSpiel.tex'.
+  No need to remake target `include/LangzeitSpiel.tex'.
+  Considering target file `include/Magie.tex'.
+   Looking for an implicit rule for `include/Magie.tex'.
+   Trying pattern rule with stem `Magie'.
+   Trying implicit prerequisite `include/Magie.w'.
+   Trying pattern rule with stem `Magie'.
+   Trying implicit prerequisite `include/Magie.web'.
+   Trying pattern rule with stem `Magie'.
+   Trying implicit prerequisite `include/Magie.w'.
+   Trying pattern rule with stem `Magie.tex'.
+   Trying implicit prerequisite `include/Magie.tex,v'.
+   Trying pattern rule with stem `Magie.tex'.
+   Trying implicit prerequisite `include/RCS/Magie.tex,v'.
+   Trying pattern rule with stem `Magie.tex'.
+   Trying implicit prerequisite `include/RCS/Magie.tex'.
+   Trying pattern rule with stem `Magie.tex'.
+   Trying implicit prerequisite `include/s.Magie.tex'.
+   Trying pattern rule with stem `Magie.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Magie.tex'.
+   Trying pattern rule with stem `Magie'.
+   Trying implicit prerequisite `include/Magie.w'.
+   Looking for a rule with intermediate file `include/Magie.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Magie.w'.
+    Trying implicit prerequisite `include/Magie.w,v'.
+    Trying pattern rule with stem `Magie.w'.
+    Trying implicit prerequisite `include/RCS/Magie.w,v'.
+    Trying pattern rule with stem `Magie.w'.
+    Trying implicit prerequisite `include/RCS/Magie.w'.
+    Trying pattern rule with stem `Magie.w'.
+    Trying implicit prerequisite `include/s.Magie.w'.
+    Trying pattern rule with stem `Magie.w'.
+    Trying implicit prerequisite `include/SCCS/s.Magie.w'.
+   Trying pattern rule with stem `Magie'.
+   Trying implicit prerequisite `include/Magie.web'.
+   Looking for a rule with intermediate file `include/Magie.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Magie.web'.
+    Trying implicit prerequisite `include/Magie.web,v'.
+    Trying pattern rule with stem `Magie.web'.
+    Trying implicit prerequisite `include/RCS/Magie.web,v'.
+    Trying pattern rule with stem `Magie.web'.
+    Trying implicit prerequisite `include/RCS/Magie.web'.
+    Trying pattern rule with stem `Magie.web'.
+    Trying implicit prerequisite `include/s.Magie.web'.
+    Trying pattern rule with stem `Magie.web'.
+    Trying implicit prerequisite `include/SCCS/s.Magie.web'.
+   Trying pattern rule with stem `Magie'.
+   Rejecting impossible implicit prerequisite `include/Magie.w'.
+   No implicit rule found for `include/Magie.tex'.
+   Finished prerequisites of target file `include/Magie.tex'.
+  No need to remake target `include/Magie.tex'.
+  Considering target file `include/SLErzaehlphase.tex'.
+   Looking for an implicit rule for `include/SLErzaehlphase.tex'.
+   Trying pattern rule with stem `SLErzaehlphase'.
+   Trying implicit prerequisite `include/SLErzaehlphase.w'.
+   Trying pattern rule with stem `SLErzaehlphase'.
+   Trying implicit prerequisite `include/SLErzaehlphase.web'.
+   Trying pattern rule with stem `SLErzaehlphase'.
+   Trying implicit prerequisite `include/SLErzaehlphase.w'.
+   Trying pattern rule with stem `SLErzaehlphase.tex'.
+   Trying implicit prerequisite `include/SLErzaehlphase.tex,v'.
+   Trying pattern rule with stem `SLErzaehlphase.tex'.
+   Trying implicit prerequisite `include/RCS/SLErzaehlphase.tex,v'.
+   Trying pattern rule with stem `SLErzaehlphase.tex'.
+   Trying implicit prerequisite `include/RCS/SLErzaehlphase.tex'.
+   Trying pattern rule with stem `SLErzaehlphase.tex'.
+   Trying implicit prerequisite `include/s.SLErzaehlphase.tex'.
+   Trying pattern rule with stem `SLErzaehlphase.tex'.
+   Trying implicit prerequisite `include/SCCS/s.SLErzaehlphase.tex'.
+   Trying pattern rule with stem `SLErzaehlphase'.
+   Trying implicit prerequisite `include/SLErzaehlphase.w'.
+   Looking for a rule with intermediate file `include/SLErzaehlphase.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `SLErzaehlphase.w'.
+    Trying implicit prerequisite `include/SLErzaehlphase.w,v'.
+    Trying pattern rule with stem `SLErzaehlphase.w'.
+    Trying implicit prerequisite `include/RCS/SLErzaehlphase.w,v'.
+    Trying pattern rule with stem `SLErzaehlphase.w'.
+    Trying implicit prerequisite `include/RCS/SLErzaehlphase.w'.
+    Trying pattern rule with stem `SLErzaehlphase.w'.
+    Trying implicit prerequisite `include/s.SLErzaehlphase.w'.
+    Trying pattern rule with stem `SLErzaehlphase.w'.
+    Trying implicit prerequisite `include/SCCS/s.SLErzaehlphase.w'.
+   Trying pattern rule with stem `SLErzaehlphase'.
+   Trying implicit prerequisite `include/SLErzaehlphase.web'.
+   Looking for a rule with intermediate file `include/SLErzaehlphase.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `SLErzaehlphase.web'.
+    Trying implicit prerequisite `include/SLErzaehlphase.web,v'.
+    Trying pattern rule with stem `SLErzaehlphase.web'.
+    Trying implicit prerequisite `include/RCS/SLErzaehlphase.web,v'.
+    Trying pattern rule with stem `SLErzaehlphase.web'.
+    Trying implicit prerequisite `include/RCS/SLErzaehlphase.web'.
+    Trying pattern rule with stem `SLErzaehlphase.web'.
+    Trying implicit prerequisite `include/s.SLErzaehlphase.web'.
+    Trying pattern rule with stem `SLErzaehlphase.web'.
+    Trying implicit prerequisite `include/SCCS/s.SLErzaehlphase.web'.
+   Trying pattern rule with stem `SLErzaehlphase'.
+   Rejecting impossible implicit prerequisite `include/SLErzaehlphase.w'.
+   No implicit rule found for `include/SLErzaehlphase.tex'.
+   Finished prerequisites of target file `include/SLErzaehlphase.tex'.
+  No need to remake target `include/SLErzaehlphase.tex'.
+  Considering target file `include/SchadenHeilungTod.tex'.
+   Looking for an implicit rule for `include/SchadenHeilungTod.tex'.
+   Trying pattern rule with stem `SchadenHeilungTod'.
+   Trying implicit prerequisite `include/SchadenHeilungTod.w'.
+   Trying pattern rule with stem `SchadenHeilungTod'.
+   Trying implicit prerequisite `include/SchadenHeilungTod.web'.
+   Trying pattern rule with stem `SchadenHeilungTod'.
+   Trying implicit prerequisite `include/SchadenHeilungTod.w'.
+   Trying pattern rule with stem `SchadenHeilungTod.tex'.
+   Trying implicit prerequisite `include/SchadenHeilungTod.tex,v'.
+   Trying pattern rule with stem `SchadenHeilungTod.tex'.
+   Trying implicit prerequisite `include/RCS/SchadenHeilungTod.tex,v'.
+   Trying pattern rule with stem `SchadenHeilungTod.tex'.
+   Trying implicit prerequisite `include/RCS/SchadenHeilungTod.tex'.
+   Trying pattern rule with stem `SchadenHeilungTod.tex'.
+   Trying implicit prerequisite `include/s.SchadenHeilungTod.tex'.
+   Trying pattern rule with stem `SchadenHeilungTod.tex'.
+   Trying implicit prerequisite `include/SCCS/s.SchadenHeilungTod.tex'.
+   Trying pattern rule with stem `SchadenHeilungTod'.
+   Trying implicit prerequisite `include/SchadenHeilungTod.w'.
+   Looking for a rule with intermediate file `include/SchadenHeilungTod.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `SchadenHeilungTod.w'.
+    Trying implicit prerequisite `include/SchadenHeilungTod.w,v'.
+    Trying pattern rule with stem `SchadenHeilungTod.w'.
+    Trying implicit prerequisite `include/RCS/SchadenHeilungTod.w,v'.
+    Trying pattern rule with stem `SchadenHeilungTod.w'.
+    Trying implicit prerequisite `include/RCS/SchadenHeilungTod.w'.
+    Trying pattern rule with stem `SchadenHeilungTod.w'.
+    Trying implicit prerequisite `include/s.SchadenHeilungTod.w'.
+    Trying pattern rule with stem `SchadenHeilungTod.w'.
+    Trying implicit prerequisite `include/SCCS/s.SchadenHeilungTod.w'.
+   Trying pattern rule with stem `SchadenHeilungTod'.
+   Trying implicit prerequisite `include/SchadenHeilungTod.web'.
+   Looking for a rule with intermediate file `include/SchadenHeilungTod.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `SchadenHeilungTod.web'.
+    Trying implicit prerequisite `include/SchadenHeilungTod.web,v'.
+    Trying pattern rule with stem `SchadenHeilungTod.web'.
+    Trying implicit prerequisite `include/RCS/SchadenHeilungTod.web,v'.
+    Trying pattern rule with stem `SchadenHeilungTod.web'.
+    Trying implicit prerequisite `include/RCS/SchadenHeilungTod.web'.
+    Trying pattern rule with stem `SchadenHeilungTod.web'.
+    Trying implicit prerequisite `include/s.SchadenHeilungTod.web'.
+    Trying pattern rule with stem `SchadenHeilungTod.web'.
+    Trying implicit prerequisite `include/SCCS/s.SchadenHeilungTod.web'.
+   Trying pattern rule with stem `SchadenHeilungTod'.
+   Rejecting impossible implicit prerequisite `include/SchadenHeilungTod.w'.
+   No implicit rule found for `include/SchadenHeilungTod.tex'.
+   Finished prerequisites of target file `include/SchadenHeilungTod.tex'.
+  No need to remake target `include/SchadenHeilungTod.tex'.
+  Considering target file `include/Spielleiten.tex'.
+   Looking for an implicit rule for `include/Spielleiten.tex'.
+   Trying pattern rule with stem `Spielleiten'.
+   Trying implicit prerequisite `include/Spielleiten.w'.
+   Trying pattern rule with stem `Spielleiten'.
+   Trying implicit prerequisite `include/Spielleiten.web'.
+   Trying pattern rule with stem `Spielleiten'.
+   Trying implicit prerequisite `include/Spielleiten.w'.
+   Trying pattern rule with stem `Spielleiten.tex'.
+   Trying implicit prerequisite `include/Spielleiten.tex,v'.
+   Trying pattern rule with stem `Spielleiten.tex'.
+   Trying implicit prerequisite `include/RCS/Spielleiten.tex,v'.
+   Trying pattern rule with stem `Spielleiten.tex'.
+   Trying implicit prerequisite `include/RCS/Spielleiten.tex'.
+   Trying pattern rule with stem `Spielleiten.tex'.
+   Trying implicit prerequisite `include/s.Spielleiten.tex'.
+   Trying pattern rule with stem `Spielleiten.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Spielleiten.tex'.
+   Trying pattern rule with stem `Spielleiten'.
+   Trying implicit prerequisite `include/Spielleiten.w'.
+   Looking for a rule with intermediate file `include/Spielleiten.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Spielleiten.w'.
+    Trying implicit prerequisite `include/Spielleiten.w,v'.
+    Trying pattern rule with stem `Spielleiten.w'.
+    Trying implicit prerequisite `include/RCS/Spielleiten.w,v'.
+    Trying pattern rule with stem `Spielleiten.w'.
+    Trying implicit prerequisite `include/RCS/Spielleiten.w'.
+    Trying pattern rule with stem `Spielleiten.w'.
+    Trying implicit prerequisite `include/s.Spielleiten.w'.
+    Trying pattern rule with stem `Spielleiten.w'.
+    Trying implicit prerequisite `include/SCCS/s.Spielleiten.w'.
+   Trying pattern rule with stem `Spielleiten'.
+   Trying implicit prerequisite `include/Spielleiten.web'.
+   Looking for a rule with intermediate file `include/Spielleiten.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Spielleiten.web'.
+    Trying implicit prerequisite `include/Spielleiten.web,v'.
+    Trying pattern rule with stem `Spielleiten.web'.
+    Trying implicit prerequisite `include/RCS/Spielleiten.web,v'.
+    Trying pattern rule with stem `Spielleiten.web'.
+    Trying implicit prerequisite `include/RCS/Spielleiten.web'.
+    Trying pattern rule with stem `Spielleiten.web'.
+    Trying implicit prerequisite `include/s.Spielleiten.web'.
+    Trying pattern rule with stem `Spielleiten.web'.
+    Trying implicit prerequisite `include/SCCS/s.Spielleiten.web'.
+   Trying pattern rule with stem `Spielleiten'.
+   Rejecting impossible implicit prerequisite `include/Spielleiten.w'.
+   No implicit rule found for `include/Spielleiten.tex'.
+   Finished prerequisites of target file `include/Spielleiten.tex'.
+  No need to remake target `include/Spielleiten.tex'.
+  Considering target file `include/Struktur.tex'.
+   Looking for an implicit rule for `include/Struktur.tex'.
+   Trying pattern rule with stem `Struktur'.
+   Trying implicit prerequisite `include/Struktur.w'.
+   Trying pattern rule with stem `Struktur'.
+   Trying implicit prerequisite `include/Struktur.web'.
+   Trying pattern rule with stem `Struktur'.
+   Trying implicit prerequisite `include/Struktur.w'.
+   Trying pattern rule with stem `Struktur.tex'.
+   Trying implicit prerequisite `include/Struktur.tex,v'.
+   Trying pattern rule with stem `Struktur.tex'.
+   Trying implicit prerequisite `include/RCS/Struktur.tex,v'.
+   Trying pattern rule with stem `Struktur.tex'.
+   Trying implicit prerequisite `include/RCS/Struktur.tex'.
+   Trying pattern rule with stem `Struktur.tex'.
+   Trying implicit prerequisite `include/s.Struktur.tex'.
+   Trying pattern rule with stem `Struktur.tex'.
+   Trying implicit prerequisite `include/SCCS/s.Struktur.tex'.
+   Trying pattern rule with stem `Struktur'.
+   Trying implicit prerequisite `include/Struktur.w'.
+   Looking for a rule with intermediate file `include/Struktur.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Struktur.w'.
+    Trying implicit prerequisite `include/Struktur.w,v'.
+    Trying pattern rule with stem `Struktur.w'.
+    Trying implicit prerequisite `include/RCS/Struktur.w,v'.
+    Trying pattern rule with stem `Struktur.w'.
+    Trying implicit prerequisite `include/RCS/Struktur.w'.
+    Trying pattern rule with stem `Struktur.w'.
+    Trying implicit prerequisite `include/s.Struktur.w'.
+    Trying pattern rule with stem `Struktur.w'.
+    Trying implicit prerequisite `include/SCCS/s.Struktur.w'.
+   Trying pattern rule with stem `Struktur'.
+   Trying implicit prerequisite `include/Struktur.web'.
+   Looking for a rule with intermediate file `include/Struktur.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Struktur.web'.
+    Trying implicit prerequisite `include/Struktur.web,v'.
+    Trying pattern rule with stem `Struktur.web'.
+    Trying implicit prerequisite `include/RCS/Struktur.web,v'.
+    Trying pattern rule with stem `Struktur.web'.
+    Trying implicit prerequisite `include/RCS/Struktur.web'.
+    Trying pattern rule with stem `Struktur.web'.
+    Trying implicit prerequisite `include/s.Struktur.web'.
+    Trying pattern rule with stem `Struktur.web'.
+    Trying implicit prerequisite `include/SCCS/s.Struktur.web'.
+   Trying pattern rule with stem `Struktur'.
+   Rejecting impossible implicit prerequisite `include/Struktur.w'.
+   No implicit rule found for `include/Struktur.tex'.
+   Finished prerequisites of target file `include/Struktur.tex'.
+  No need to remake target `include/Struktur.tex'.
+  Considering target file `include/VorNachteile.tex'.
+   Looking for an implicit rule for `include/VorNachteile.tex'.
+   Trying pattern rule with stem `VorNachteile'.
+   Trying implicit prerequisite `include/VorNachteile.w'.
+   Trying pattern rule with stem `VorNachteile'.
+   Trying implicit prerequisite `include/VorNachteile.web'.
+   Trying pattern rule with stem `VorNachteile'.
+   Trying implicit prerequisite `include/VorNachteile.w'.
+   Trying pattern rule with stem `VorNachteile.tex'.
+   Trying implicit prerequisite `include/VorNachteile.tex,v'.
+   Trying pattern rule with stem `VorNachteile.tex'.
+   Trying implicit prerequisite `include/RCS/VorNachteile.tex,v'.
+   Trying pattern rule with stem `VorNachteile.tex'.
+   Trying implicit prerequisite `include/RCS/VorNachteile.tex'.
+   Trying pattern rule with stem `VorNachteile.tex'.
+   Trying implicit prerequisite `include/s.VorNachteile.tex'.
+   Trying pattern rule with stem `VorNachteile.tex'.
+   Trying implicit prerequisite `include/SCCS/s.VorNachteile.tex'.
+   Trying pattern rule with stem `VorNachteile'.
+   Trying implicit prerequisite `include/VorNachteile.w'.
+   Looking for a rule with intermediate file `include/VorNachteile.w'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `VorNachteile.w'.
+    Trying implicit prerequisite `include/VorNachteile.w,v'.
+    Trying pattern rule with stem `VorNachteile.w'.
+    Trying implicit prerequisite `include/RCS/VorNachteile.w,v'.
+    Trying pattern rule with stem `VorNachteile.w'.
+    Trying implicit prerequisite `include/RCS/VorNachteile.w'.
+    Trying pattern rule with stem `VorNachteile.w'.
+    Trying implicit prerequisite `include/s.VorNachteile.w'.
+    Trying pattern rule with stem `VorNachteile.w'.
+    Trying implicit prerequisite `include/SCCS/s.VorNachteile.w'.
+   Trying pattern rule with stem `VorNachteile'.
+   Trying implicit prerequisite `include/VorNachteile.web'.
+   Looking for a rule with intermediate file `include/VorNachteile.web'.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `VorNachteile.web'.
+    Trying implicit prerequisite `include/VorNachteile.web,v'.
+    Trying pattern rule with stem `VorNachteile.web'.
+    Trying implicit prerequisite `include/RCS/VorNachteile.web,v'.
+    Trying pattern rule with stem `VorNachteile.web'.
+    Trying implicit prerequisite `include/RCS/VorNachteile.web'.
+    Trying pattern rule with stem `VorNachteile.web'.
+    Trying implicit prerequisite `include/s.VorNachteile.web'.
+    Trying pattern rule with stem `VorNachteile.web'.
+    Trying implicit prerequisite `include/SCCS/s.VorNachteile.web'.
+   Trying pattern rule with stem `VorNachteile'.
+   Rejecting impossible implicit prerequisite `include/VorNachteile.w'.
+   No implicit rule found for `include/VorNachteile.tex'.
+   Finished prerequisites of target file `include/VorNachteile.tex'.
+  No need to remake target `include/VorNachteile.tex'.
+  Considering target file `draft_mode'.
+   File `draft_mode' does not exist.
+   Finished prerequisites of target file `draft_mode'.
+  Must remake target `draft_mode'.
+cp -p StoryDSA_Mode_draft.tex StoryDSA_Mode.tex
+Putting child 0x0010c320 (draft_mode) PID 41327 on the chain.
+Live child 0x0010c320 (draft_mode) PID 41327 
+Reaping winning child 0x0010c320 PID 41327 
+Removing child 0x0010c320 PID 41327 from chain.
+  Successfully remade target file `draft_mode'.
+ Finished prerequisites of target file `StoryDSA_draft.pdf'.
+ Prerequisite `StoryDSA.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `StoryDSA_Mode.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `StoryDSA_Mode_draft.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `StoryDSA_Mode_final.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/AbenteuerVorbereiten.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Begriffe.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Beispielcharaktere.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Charaktererschaffung.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Einleitung.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Erzaehlungen.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/FreiesSpiel.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Gegenstaende.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Geweihte.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Grundregeln.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Konflikte.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Kurzregeln.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/LangzeitSpiel.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Magie.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/SLErzaehlphase.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/SchadenHeilungTod.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Spielleiten.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/Struktur.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `include/VorNachteile.tex' is older than target `StoryDSA_draft.pdf'.
+ Prerequisite `draft_mode' of target `StoryDSA_draft.pdf' does not exist.
+Must remake target `StoryDSA_draft.pdf'.
+pdflatex StoryDSA
+Putting child 0x0010cca0 (StoryDSA_draft.pdf) PID 41334 on the chain.
+Live child 0x0010cca0 (StoryDSA_draft.pdf) PID 41334 
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009)
+entering extended mode
+(./StoryDSA.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, german-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, ar
+abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
+h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
+greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, ku
+rmanji, latin, latvian, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, po
+lish, portuguese, romanian, russian, sanskrit, serbian, slovak, slovenian, span
+ish, swedish, turkish, ukenglish, ukrainian, uppersorbian, welsh, loaded.
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2009/texmf-dist/tex/generic/german/ngerman.sty
+v2.5e 1998-07-08)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/enumerate.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/pdftex-def/pdftex.def)))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/omsenc.dfu)))
+(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/ms/ragged2e.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/ms/everysel.sty))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/xspace.sty)
+(./StoryDSA_Mode.tex
+(/usr/local/texlive/2009/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/xelatex/xetexconfig/geometry.cfg)))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/mdwtools/mdwtab.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/multicol.sty)
+Writing index file StoryDSA.idx
+(/usr/local/texlive/2009/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/titlesec/block.tss)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/titlesec/titletoc.sty)
+(./StoryDSA.aux (./include/Einleitung.aux) (./include/Grundregeln.aux)
+(./include/Charaktererschaffung.aux) (./include/Struktur.aux)
+(./include/Erzaehlungen.aux) (./include/SLErzaehlphase.aux)
+(./include/FreiesSpiel.aux) (./include/Konflikte.aux)
+(./include/SchadenHeilungTod.aux) (./include/Gegenstaende.aux)
+(./include/Magie.aux) (./include/Geweihte.aux) (./include/LangzeitSpiel.aux)
+(./include/AbenteuerVorbereiten.aux) (./include/Spielleiten.aux)
+(./include/Beispielcharaktere.aux) (./include/VorNachteile.aux)
+(./include/Kurzregeln.aux) (./include/Begriffe.aux))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <34> not available
+(Font)              size <24.88> substituted on input line 137.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <34> not available
+(Font)              size <24.88> substituted on input line 137.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 137.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsb.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 140--148
+
+[1{/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./StoryDSA.toc) [2] (./include/Einleitung.tex
+Kapitel 1.
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/omscmr.fd) [3] [4] [5]
+[6] [7]) [8] (./include/Grundregeln.tex
+Kapitel 2.
+[9] [10] [11] [12]) [13] (./include/Charaktererschaffung.tex
+Kapitel 3.
+[14] [15] [16] [17] [18] [19]
+Underfull \hbox (badness 1783) in paragraph at lines 161--162
+[]\OT1/cmr/m/n/10 Geheimnisse ent-de-cken, Un-be-kann-tes er-for-schen (hier un
+-
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+[]\OT1/cmr/m/n/10 Diese Bo-nus-punk-te
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+[]\OT1/cmr/m/n/10 Sollte der
+[22] [23]
+Underfull \hbox (badness 1701) in paragraph at lines 248--249
+[]\OT1/cmr/m/n/10 1 Zu-satzw[]urfel beim Su-chen von Ge-heimt[]uren und
+[24] [25]
+Underfull \hbox (badness 2435) in paragraph at lines 285--286
+[]\OT1/cmr/m/n/10 Ein oder zwei Ma-lusw[]urfel durch
+[26] [27] [28] [29] [30] [31] [32] [33] [34]
+Underfull \hbox (badness 4001) in paragraph at lines 614--615
+[]\OT1/cmr/m/n/10 Spezialtalente, die nicht ak-ti-viert wur-den, ha-ben kei-nen
+ Tal-
+
+Underfull \hbox (badness 1776) in paragraph at lines 614--615
+\OT1/cmr/m/n/10 ent-wert und kei-nen Ta-lent-ge-samt-wert. Da-her kommt der Min
+dest-
+[35]
+Underfull \hbox (badness 5008) in paragraph at lines 623--624
+[]\OT1/cmr/m/n/10 Fesseln/Entfesseln (FF/GE/KK), Tal-ent-wert 3: 
+
+Underfull \hbox (badness 4621) in paragraph at lines 624--625
+[]\OT1/cmr/m/n/10 Heilkunde Wun-den (KL/CH/FF), Tal-ent-wert 6: 
+[36] [37] [38] [39] [40] [41] [42]) [43] (./include/Struktur.tex
+Kapitel 4.
+[44] <pics/flowchart.pdf, id=155, 320.19624pt x 158.5925pt>
+<use pics/flowchart.pdf> [45 <./pics/flowchart.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]\OT1/cmr/m/n/10 ``Es kommt zu Schwie-rig-kei-ten.
+[46]) [47] (./include/Erzaehlungen.tex
+Kapitel 5.
+[48] [49] [50] [51] [52] [53]
+Underfull \hbox (badness 2005) in paragraph at lines 108--109
+[]\OT1/cmr/m/n/10 Durch den Erz[]ahl-wert nei-gen man-che Spie-ler da-zu, ei-ne
+ rei-ne
+[54] [55]) [56] (./include/SLErzaehlphase.tex
+Kapitel 6.
+) [57] [58] (./include/FreiesSpiel.tex
+Kapitel 7.
+) [59] (./include/Konflikte.tex
+Kapitel 8.
+[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+[]\OT1/cmr/m/n/10 (pers[]onli-
+
+Overfull \hbox (4.61221pt too wide) in paragraph at lines 317--318
+[]\OT1/cmr/m/n/10 (pers[]onli-
+[76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88]
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
+[]\OT1/cmr/m/n/10 (pers[]onli-
+
+Overfull \hbox (4.61221pt too wide) in paragraph at lines 559--560
+[]\OT1/cmr/m/n/10 (pers[]onli-
+[89] [90] [91] [92] [93] [94] [95] [96]) [97] (./include/SchadenHeilungTod.tex
+Kapitel 9.
+
+Underfull \hbox (badness 6348) in paragraph at lines 4--5
+\OT1/cmr/m/n/10 Bei \OT1/cmr/m/it/10 Sto-ryD-SA \OT1/cmr/m/n/10 hat je-der Cha-
+rak-ter ei-ne be-stimm-te Men-ge an
+
+Underfull \hbox (badness 5652) in paragraph at lines 4--5
+\OT1/cmss/bx/n/10 Le-bens-kraft[] \OT1/cmr/m/n/10 und \OT1/cmss/bx/n/10 Wil-len
+s-kraft[]\OT1/cmr/m/n/10 . Nor-ma-ler-wei-se hat ein Anf[]anger-
+
+Underfull \hbox (badness 6396) in paragraph at lines 4--5
+\OT1/cmr/m/n/10 cha-rak-ter MU+KL+IN+CH+6 (im Mit-tel 10) Wil-lens-kraft und
+[98] [99] [100]) [101] (./include/Gegenstaende.tex
+Kapitel 10.
+[102] [103] [104]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 84--85
+[][] 
+[105] [106]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+[]\OT1/cmr/m/n/10 Diese Waf-fen k[]onnen als Einh[]ander oder
+
+Underfull \hbox (badness 2735) in paragraph at lines 110--111
+[]\OT1/cmr/m/n/10 Diese Waf-fen z[]ahlen nur als Ge-
+[107] [108] [109] [110]) [111] (./include/Magie.tex
+Kapitel 11.
+[112] [113] [114] [115]
+Underfull \hbox (badness 1552) in paragraph at lines 92--93
+[]\OT1/cmr/m/n/10 Schutzgeist (Schutz). Der Vier-telzau-be-rer kann Konfliktpun
+kt-
+) [116] (./include/Geweihte.tex
+Kapitel 12.
+[117] [118]) [119] (./include/LangzeitSpiel.tex
+Kapitel 13.
+[120] [121]
+
+LaTeX Warning: Reference `Ch:Spielleiten' on page 122 undefined on input line 4
+6.
+
+
+Overfull \hbox (18.7243pt too wide) in alignment at lines 51--67
+ [][][][][][][][][][][] 
+[122]
+Underfull \hbox (badness 3291) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 Beliebiger (stim-mungs-vol-ler) Na-me, da-zu min-des-tens drei 
+Ta-len-te
+[123] [124]) [125] (./include/AbenteuerVorbereiten.tex
+Kapitel 14.
+[126] [127] [128] [129] [130] [131] [132]
+<pics/fluss1.pdf, id=442, 823.075pt x 581.17125pt> <use pics/fluss1.pdf>
+[133 <./pics/fluss1.pdf>] [134]
+<pics/web1.pdf, id=459, 328.22626pt x 376.40625pt> <use pics/web1.pdf> [135]
+[136 <./pics/web1.pdf>] [137] [138] [139] [140] [141] [142] [143] [144]
+[145] [146] [147] <pics/web2.pdf, id=510, 716.6775pt x 536.0025pt>
+<use pics/web2.pdf> [148] [149 <./pics/web2.pdf>] [150] [151]) [152]
+(./include/Spielleiten.tex
+Kapitel 15.
+[153] [154] [155] [156] [157] [158] [159] [160] [161] [162] [163]
+Kapitel 16.
+
+Overfull \hbox (57.24635pt too wide) in paragraph at lines 241--242
+[][]\OT1/cmtt/m/n/10 http://grofafo.org/index.php/topic,26021.msg580443/topicse
+en.html#new 
+) [164] (./include/Beispielcharaktere.tex
+Kapitel 17.
+[165] [166]
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]\OT1/cmr/m/n/10 Grundwissen Eti-ket-te, Ein-hand-waf-
+[167] [168]
+Underfull \hbox (badness 3557) in paragraph at lines 139--140
+[]\OT1/cmr/m/n/10 Metallverst[]ark-te Le-derr[]ustung, Ge-schenk zur Be-loh-nun
+g
+[169]
+Underfull \hbox (badness 2293) in paragraph at lines 176--177
+[]\OT1/cmr/m/n/10 Hammerschlag (Rau-fen, Ein-hand-waf-
+
+Underfull \hbox (badness 4303) in paragraph at lines 176--177
+\OT1/cmr/m/n/10 fen, auf-ge-stockt), Wald-kun-dig (Ath-le-tik, K[]orper-be-herr
+-schung,
+[170]
+Underfull \hbox (badness 1762) in paragraph at lines 177--178
+[]\OT1/cmr/m/n/10 Meisterparade (Rau-fen, Ein-hand-waf-
+[171]
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+[]\OT1/cmr/m/n/10 Lesen/Schreiben, Me-cha-nik,
+[172] [173] [174]
+Underfull \hbox (badness 5288) in paragraph at lines 265--266
+[]\OT1/cmr/m/n/10 1 Bo-nusw[]urfel bei un-vor-her-seh-ba-ren Ge-fah-ren
+
+Underfull \hbox (badness 2065) in paragraph at lines 266--267
+[]\OT1/cmr/m/n/10 1 Bo-nusw[]urfel bei Ver-hand-lun-gen im Adel
+[175] [176] [177] [178] [179] [180] [181] [182] [183] [184]) [185]
+(./include/VorNachteile.tex
+Kapitel 18.
+
+Underfull \hbox (badness 2189) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 menschen z. B. we-gen sei-ner wohl-klin-gen-den Stim-me, sei-ne
+s
+[186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196]) [197]
+(./include/Kurzregeln.tex
+Kapitel 19.
+[198]
+Overfull \hbox (17.77783pt too wide) in alignment at lines 65--77
+ [][] 
+[199] [200] [201] [202]
+Underfull \hbox (badness 1515) in paragraph at lines 160--161
+[]\OT1/cmr/m/n/10 Festlegen des au-to-ma-ti-schen Offensiv- und De-fen-si-v-er-
+geb-nis-ses
+[203] [204] [205] [206] [207]) [208] (./include/Begriffe.tex
+Kapitel 20.
+[209] [210] [211] [212]) [213] (./StoryDSA.ind [214]
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+[]\OT1/cmr/m/n/8 Richtungsentscheidungen,
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+[]\OT1/cmr/m/n/8 SL-Erz[]ahl-pha-se, 44, 57,
+) [215] (./StoryDSA.aux (./include/Einleitung.aux) (./include/Grundregeln.aux)
+(./include/Charaktererschaffung.aux) (./include/Struktur.aux)
+(./include/Erzaehlungen.aux) (./include/SLErzaehlphase.aux)
+(./include/FreiesSpiel.aux) (./include/Konflikte.aux)
+(./include/SchadenHeilungTod.aux) (./include/Gegenstaende.aux)
+(./include/Magie.aux) (./include/Geweihte.aux) (./include/LangzeitSpiel.aux)
+(./include/AbenteuerVorbereiten.aux) (./include/Spielleiten.aux)
+(./include/Beispielcharaktere.aux) (./include/VorNachteile.aux)
+(./include/Kurzregeln.aux) (./include/Begriffe.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 9.12pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2009/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2009/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2009/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2009/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2009/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2009/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2009/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2009/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2009/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2009/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2009/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2009/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2009/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2009/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb>
+Output written on StoryDSA.pdf (215 pages, 787116 bytes).
+Transcript written on StoryDSA.log.
+Reaping winning child 0x0010cca0 PID 41334 
+makeindex StoryDSA
+Live child 0x0010cca0 (StoryDSA_draft.pdf) PID 41342 
+Reaping winning child 0x0010cca0 PID 41342 
+pdflatex StoryDSA
+Live child 0x0010cca0 (StoryDSA_draft.pdf) PID 41349 
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009)
+entering extended mode
+(./StoryDSA.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, german-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, ar
+abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
+h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
+greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, ku
+rmanji, latin, latvian, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, po
+lish, portuguese, romanian, russian, sanskrit, serbian, slovak, slovenian, span
+ish, swedish, turkish, ukenglish, ukrainian, uppersorbian, welsh, loaded.
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2009/texmf-dist/tex/generic/german/ngerman.sty
+v2.5e 1998-07-08)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/enumerate.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/pdftex-def/pdftex.def)))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/omsenc.dfu)))
+(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/ms/ragged2e.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/ms/everysel.sty))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/xspace.sty)
+(./StoryDSA_Mode.tex
+(/usr/local/texlive/2009/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2009/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/xelatex/xetexconfig/geometry.cfg)))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/mdwtools/mdwtab.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/multicol.sty)
+Writing index file StoryDSA.idx
+(/usr/local/texlive/2009/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/titlesec/block.tss)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/titlesec/titletoc.sty)
+(./StoryDSA.aux (./include/Einleitung.aux) (./include/Grundregeln.aux)
+(./include/Charaktererschaffung.aux) (./include/Struktur.aux)
+(./include/Erzaehlungen.aux) (./include/SLErzaehlphase.aux)
+(./include/FreiesSpiel.aux) (./include/Konflikte.aux)
+(./include/SchadenHeilungTod.aux) (./include/Gegenstaende.aux)
+(./include/Magie.aux) (./include/Geweihte.aux) (./include/LangzeitSpiel.aux)
+(./include/AbenteuerVorbereiten.aux) (./include/Spielleiten.aux)
+(./include/Beispielcharaktere.aux) (./include/VorNachteile.aux)
+(./include/Kurzregeln.aux) (./include/Begriffe.aux))
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <34> not available
+(Font)              size <24.88> substituted on input line 137.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <34> not available
+(Font)              size <24.88> substituted on input line 137.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 137.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsfonts/umsb.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 140--148
+
+[1{/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./StoryDSA.toc) [2] (./include/Einleitung.tex
+Kapitel 1.
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/omscmr.fd) [3] [4] [5]
+[6] [7]) [8] (./include/Grundregeln.tex
+Kapitel 2.
+[9] [10] [11] [12]) [13] (./include/Charaktererschaffung.tex
+Kapitel 3.
+[14] [15] [16] [17] [18] [19]
+Underfull \hbox (badness 1783) in paragraph at lines 161--162
+[]\OT1/cmr/m/n/10 Geheimnisse ent-de-cken, Un-be-kann-tes er-for-schen (hier un
+-
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+[]\OT1/cmr/m/n/10 Diese Bo-nus-punk-te
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+[]\OT1/cmr/m/n/10 Sollte der
+[22] [23]
+Underfull \hbox (badness 1701) in paragraph at lines 248--249
+[]\OT1/cmr/m/n/10 1 Zu-satzw[]urfel beim Su-chen von Ge-heimt[]uren und
+[24] [25]
+Underfull \hbox (badness 2435) in paragraph at lines 285--286
+[]\OT1/cmr/m/n/10 Ein oder zwei Ma-lusw[]urfel durch
+[26] [27] [28] [29] [30] [31] [32] [33] [34]
+Underfull \hbox (badness 4001) in paragraph at lines 614--615
+[]\OT1/cmr/m/n/10 Spezialtalente, die nicht ak-ti-viert wur-den, ha-ben kei-nen
+ Tal-
+
+Underfull \hbox (badness 1776) in paragraph at lines 614--615
+\OT1/cmr/m/n/10 ent-wert und kei-nen Ta-lent-ge-samt-wert. Da-her kommt der Min
+dest-
+[35]
+Underfull \hbox (badness 5008) in paragraph at lines 623--624
+[]\OT1/cmr/m/n/10 Fesseln/Entfesseln (FF/GE/KK), Tal-ent-wert 3: 
+
+Underfull \hbox (badness 4621) in paragraph at lines 624--625
+[]\OT1/cmr/m/n/10 Heilkunde Wun-den (KL/CH/FF), Tal-ent-wert 6: 
+[36] [37] [38] [39] [40] [41] [42]) [43] (./include/Struktur.tex
+Kapitel 4.
+[44] <pics/flowchart.pdf, id=155, 320.19624pt x 158.5925pt>
+<use pics/flowchart.pdf> [45 <./pics/flowchart.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]\OT1/cmr/m/n/10 ``Es kommt zu Schwie-rig-kei-ten.
+[46]) [47] (./include/Erzaehlungen.tex
+Kapitel 5.
+[48] [49] [50] [51] [52] [53]
+Underfull \hbox (badness 2005) in paragraph at lines 108--109
+[]\OT1/cmr/m/n/10 Durch den Erz[]ahl-wert nei-gen man-che Spie-ler da-zu, ei-ne
+ rei-ne
+[54] [55]) [56] (./include/SLErzaehlphase.tex
+Kapitel 6.
+) [57] [58] (./include/FreiesSpiel.tex
+Kapitel 7.
+) [59] (./include/Konflikte.tex
+Kapitel 8.
+[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+[]\OT1/cmr/m/n/10 (pers[]onli-
+
+Overfull \hbox (4.61221pt too wide) in paragraph at lines 317--318
+[]\OT1/cmr/m/n/10 (pers[]onli-
+[76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88]
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
+[]\OT1/cmr/m/n/10 (pers[]onli-
+
+Overfull \hbox (4.61221pt too wide) in paragraph at lines 559--560
+[]\OT1/cmr/m/n/10 (pers[]onli-
+[89] [90] [91] [92] [93] [94] [95] [96]) [97] (./include/SchadenHeilungTod.tex
+Kapitel 9.
+
+Underfull \hbox (badness 6348) in paragraph at lines 4--5
+\OT1/cmr/m/n/10 Bei \OT1/cmr/m/it/10 Sto-ryD-SA \OT1/cmr/m/n/10 hat je-der Cha-
+rak-ter ei-ne be-stimm-te Men-ge an
+
+Underfull \hbox (badness 5652) in paragraph at lines 4--5
+\OT1/cmss/bx/n/10 Le-bens-kraft[] \OT1/cmr/m/n/10 und \OT1/cmss/bx/n/10 Wil-len
+s-kraft[]\OT1/cmr/m/n/10 . Nor-ma-ler-wei-se hat ein Anf[]anger-
+
+Underfull \hbox (badness 6396) in paragraph at lines 4--5
+\OT1/cmr/m/n/10 cha-rak-ter MU+KL+IN+CH+6 (im Mit-tel 10) Wil-lens-kraft und
+[98] [99] [100]) [101] (./include/Gegenstaende.tex
+Kapitel 10.
+[102] [103] [104]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 84--85
+[][] 
+[105] [106]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+[]\OT1/cmr/m/n/10 Diese Waf-fen k[]onnen als Einh[]ander oder
+
+Underfull \hbox (badness 2735) in paragraph at lines 110--111
+[]\OT1/cmr/m/n/10 Diese Waf-fen z[]ahlen nur als Ge-
+[107] [108] [109] [110]) [111] (./include/Magie.tex
+Kapitel 11.
+[112] [113] [114] [115]
+Underfull \hbox (badness 1552) in paragraph at lines 92--93
+[]\OT1/cmr/m/n/10 Schutzgeist (Schutz). Der Vier-telzau-be-rer kann Konfliktpun
+kt-
+) [116] (./include/Geweihte.tex
+Kapitel 12.
+[117] [118]) [119] (./include/LangzeitSpiel.tex
+Kapitel 13.
+[120] [121]
+
+LaTeX Warning: Reference `Ch:Spielleiten' on page 122 undefined on input line 4
+6.
+
+
+Overfull \hbox (18.7243pt too wide) in alignment at lines 51--67
+ [][][][][][][][][][][] 
+[122]
+Underfull \hbox (badness 3291) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 Beliebiger (stim-mungs-vol-ler) Na-me, da-zu min-des-tens drei 
+Ta-len-te
+[123] [124]) [125] (./include/AbenteuerVorbereiten.tex
+Kapitel 14.
+[126] [127] [128] [129] [130] [131] [132]
+<pics/fluss1.pdf, id=442, 823.075pt x 581.17125pt> <use pics/fluss1.pdf>
+[133 <./pics/fluss1.pdf>] [134]
+<pics/web1.pdf, id=459, 328.22626pt x 376.40625pt> <use pics/web1.pdf> [135]
+[136 <./pics/web1.pdf>] [137] [138] [139] [140] [141] [142] [143] [144]
+[145] [146] [147] <pics/web2.pdf, id=510, 716.6775pt x 536.0025pt>
+<use pics/web2.pdf> [148] [149 <./pics/web2.pdf>] [150] [151]) [152]
+(./include/Spielleiten.tex
+Kapitel 15.
+[153] [154] [155] [156] [157] [158] [159] [160] [161] [162] [163]
+Kapitel 16.
+
+Overfull \hbox (57.24635pt too wide) in paragraph at lines 241--242
+[][]\OT1/cmtt/m/n/10 http://grofafo.org/index.php/topic,26021.msg580443/topicse
+en.html#new 
+) [164] (./include/Beispielcharaktere.tex
+Kapitel 17.
+[165] [166]
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]\OT1/cmr/m/n/10 Grundwissen Eti-ket-te, Ein-hand-waf-
+[167] [168]
+Underfull \hbox (badness 3557) in paragraph at lines 139--140
+[]\OT1/cmr/m/n/10 Metallverst[]ark-te Le-derr[]ustung, Ge-schenk zur Be-loh-nun
+g
+[169]
+Underfull \hbox (badness 2293) in paragraph at lines 176--177
+[]\OT1/cmr/m/n/10 Hammerschlag (Rau-fen, Ein-hand-waf-
+
+Underfull \hbox (badness 4303) in paragraph at lines 176--177
+\OT1/cmr/m/n/10 fen, auf-ge-stockt), Wald-kun-dig (Ath-le-tik, K[]orper-be-herr
+-schung,
+[170]
+Underfull \hbox (badness 1762) in paragraph at lines 177--178
+[]\OT1/cmr/m/n/10 Meisterparade (Rau-fen, Ein-hand-waf-
+[171]
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+[]\OT1/cmr/m/n/10 Lesen/Schreiben, Me-cha-nik,
+[172] [173] [174]
+Underfull \hbox (badness 5288) in paragraph at lines 265--266
+[]\OT1/cmr/m/n/10 1 Bo-nusw[]urfel bei un-vor-her-seh-ba-ren Ge-fah-ren
+
+Underfull \hbox (badness 2065) in paragraph at lines 266--267
+[]\OT1/cmr/m/n/10 1 Bo-nusw[]urfel bei Ver-hand-lun-gen im Adel
+[175] [176] [177] [178] [179] [180] [181] [182] [183] [184]) [185]
+(./include/VorNachteile.tex
+Kapitel 18.
+
+Underfull \hbox (badness 2189) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 menschen z. B. we-gen sei-ner wohl-klin-gen-den Stim-me, sei-ne
+s
+[186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196]) [197]
+(./include/Kurzregeln.tex
+Kapitel 19.
+[198]
+Overfull \hbox (17.77783pt too wide) in alignment at lines 65--77
+ [][] 
+[199] [200] [201] [202]
+Underfull \hbox (badness 1515) in paragraph at lines 160--161
+[]\OT1/cmr/m/n/10 Festlegen des au-to-ma-ti-schen Offensiv- und De-fen-si-v-er-
+geb-nis-ses
+[203] [204] [205] [206] [207]) [208] (./include/Begriffe.tex
+Kapitel 20.
+[209] [210] [211] [212]) [213] (./StoryDSA.ind [214]
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+[]\OT1/cmr/m/n/8 Richtungsentscheidungen,
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+[]\OT1/cmr/m/n/8 SL-Erz[]ahl-pha-se, 44, 57,
+) [215] (./StoryDSA.aux (./include/Einleitung.aux) (./include/Grundregeln.aux)
+(./include/Charaktererschaffung.aux) (./include/Struktur.aux)
+(./include/Erzaehlungen.aux) (./include/SLErzaehlphase.aux)
+(./include/FreiesSpiel.aux) (./include/Konflikte.aux)
+(./include/SchadenHeilungTod.aux) (./include/Gegenstaende.aux)
+(./include/Magie.aux) (./include/Geweihte.aux) (./include/LangzeitSpiel.aux)
+(./include/AbenteuerVorbereiten.aux) (./include/Spielleiten.aux)
+(./include/Beispielcharaktere.aux) (./include/VorNachteile.aux)
+(./include/Kurzregeln.aux) (./include/Begriffe.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 9.12pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2009/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2009/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2009/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2009/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2009/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2009/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2009/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2009/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2009/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2009/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2009/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2009/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2009/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2009/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb>
+Output written on StoryDSA.pdf (215 pages, 787116 bytes).
+Transcript written on StoryDSA.log.
+Reaping winning child 0x0010cca0 PID 41349 
+mv StoryDSA.pdf StoryDSA_draft.pdf
+Live child 0x0010cca0 (StoryDSA_draft.pdf) PID 41352 
+Reaping winning child 0x0010cca0 PID 41352 
+Removing child 0x0010cca0 PID 41352 from chain.
+Successfully remade target file `StoryDSA_draft.pdf'.

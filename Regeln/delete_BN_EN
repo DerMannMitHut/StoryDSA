@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for f in include/*.tex ; do
+    echo "processing $f..."
+    ex -s +'g/^\\[BE]N\s*$/d' +'%s/\\[BE]N//g' +'wq' $f
+done

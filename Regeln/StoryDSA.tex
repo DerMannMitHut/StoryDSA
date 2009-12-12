@@ -1,0 +1,176 @@
+\documentclass[10pt,oneside,notitlepage]{report}
+\usepackage{ngerman,amsmath,amssymb,enumerate}
+\usepackage{graphicx,color}
+\usepackage[utf8]{inputenc}
+\usepackage{ifpdf}
+\usepackage{ragged2e}
+\usepackage{xspace}
+
+\input{StoryDSA_Mode.tex}
+
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.8}
+
+\tolerance 1414 
+\hbadness 1414 
+\emergencystretch 1.5em 
+\hfuzz 0.3pt 
+\widowpenalty=10000 
+\vfuzz \hfuzz 
+\raggedbottom 
+
+\fboxrule1.5pt
+
+\newcommand{\StoryDSA}{\emph{StoryDSA}\xspace}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tabularx,mdwtab}
+
+\newcolumntype{R}{>{\raggedleft}X}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{makeidx,multicol}
+\makeindex
+\makeatletter
+\renewenvironment{theindex}{%
+	\begin{multicols}{3}[\chapter*{Index}]%
+	\addcontentsline{toc}{chapter}{Index}%
+	\footnotesize%
+	\parindent\z@%
+	\setlength{\parskip}{\z@ \@plus .3\p@}%
+	\setlength{\parfillskip}{\z@ \@plus 1fil}%
+	\let\item\@idxitem%
+}
+{\end{multicols}}
+\makeatother
+\renewcommand{\seename}{$\to$}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\fancyhdrdefinition
+
+\renewcommand{\thepage}{\arabic{page}}%
+
+\renewcommand{\sectionmark}[1]{\markboth{}{\bfseries #1}}
+\renewcommand{\chaptermark}[1]{\markboth{}{\bfseries #1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{titlesec}
+\titlesecdefinition
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{titletoc}
+\titlecontents{part}[0pt]{\vspace{2ex}\large\bfseries}{\thecontentslabel}{}{\hfill\contentspage}[\vspace{1ex}]
+\titlecontents{chapter}[0pt]{\vspace{1ex}}{\thecontentslabel\quad}{}{\titlerule*[1pc]{.}\contentspage}[]
+\titlecontents{section}[1em]{\thecontentslabel\quad}{}{}{\titlerule*[1pc]{.}\contentspage}[]
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\fontsize{34}{30}\titlefont \StoryDSA}
+\author{Dominic `Dom' Wäsch\\[\medskipamount]%
+    \begin{minipage}{0.8\textwidth}
+    Mit Beiträgen von:
+    Holger `Purzel' Müller,
+    Thomas Tavernin,
+    Sebastian ??? und
+    Achim Zien
+    \end{minipage}
+}
+\date{Version 0.12.2\\Datum: \today}
+
+\newcommand{\DEF}[1]{\textsf{\textbf{#1}}}
+
+\renewcommand{\paragraph}[1]{\par\vspace{1ex}{\bfseries #1}\quad}
+\newenvironment{beispiel}{%
+    \pagebreak[3]\begin{list}{}{%
+		   \setlength{\leftmargin}{0.025\textwidth}%
+		   \setlength{\rightmargin}{\leftmargin}%
+		  }\parindent0pt\parskip1ex\RaggedRight\item[]%
+}{%
+    \end{list}\medskip%
+}
+
+\newcommand{\optionalfont}{\itshape}
+\newenvironment{optional}{%
+    \pagebreak[3]\optionalfont%
+}{%
+    \medskip%
+}
+
+\newcommand{\designfont}{\footnotesize\parindent0pt\parskip1ex}
+\newsavebox{\designbox}
+\newenvironment{design}{%
+    \begin{lrbox}{\designbox}\begin{minipage}{0.95\textwidth}\designfont%
+}{%
+    \end{minipage}\end{lrbox}\begin{table}\centering{\fbox{\usebox{\designbox}}}\end{table}%
+}
+
+\newcommand{\BTalent}{\item[$\star$]}
+\newcommand{\STalent}{\item[--]}
+\newcommand{\WTalent}{\item[$\circ$]}
+
+\newcommand{\BN}{\begingroup\neufont}
+\newcommand{\EN}{\endgroup\xspace}
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+\vfill
+\begin{footnotesize}
+\noindent\begin{minipage}{\textwidth}
+Verwendung der Marke und Inhalten von DAS SCHWARZE AUGE mit freundlicher Genehmigung der Ulisses Medien \& Spiel Distribution GmbH.
+
+Copyright (c) 2007 by Significant GbR f"ur die Marke DAS SCHWARZE AUGE in Wort und Bild, by Alpers, Fuchs, Kramer, Neigel f"ur die Inhalte.
+
+Dieses Dokument enth"alt nicht-offizelle Informationen zum Rollenspiel Das Schwarze Auge und zur Welt Aventurien. Fragen zu diesem Dokument sollten daher per E-Mail an {dominic@metstuebchen.de} gestellt werden.
+\end{minipage}
+\end{footnotesize}
+
+\setcounter{tocdepth}{0}
+\tableofcontents
+\markboth{}{}
+
+\include{include/Einleitung}
+\include{include/Grundregeln}
+\include{include/Charaktererschaffung}
+\include{include/Struktur}
+\include{include/Erzaehlungen}
+\include{include/SLErzaehlphase}
+\include{include/FreiesSpiel}
+\include{include/Konflikte}
+\include{include/SchadenHeilungTod}
+\include{include/Gegenstaende}
+\include{include/Magie}
+\include{include/Geweihte}
+\include{include/LangzeitSpiel}
+\include{include/AbenteuerVorbereiten}
+\include{include/Spielleiten}
+\include{include/Beispielcharaktere}
+\include{include/VorNachteile}
+\include{include/Kurzregeln}
+\include{include/Begriffe}
+
+
+\printindex
+
+\end{document}

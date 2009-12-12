@@ -1,0 +1,24 @@
+digraph beispielweb{
+
+  compound=true
+
+  subgraph cluster0{
+    label="Gruppe 1"
+    c1 [label="Charakter 1"]
+    c2 [label="Charakter 2"]
+  }
+
+  subgraph cluster1{
+    label="Gruppe 2"
+    c3 [label="Charakter 3"]
+  }
+
+  c4 [label="Charakter 4"]
+
+  c1 -> c3 [ltail=cluster0,lhead=cluster1,arrowhead=dot,arrowtail=normal,minlen=2]
+  c1 -> c3 [arrowhead=tee,arrowtail=tee]
+  c2 -> c3 [lhead=cluster1,arrowhead=normal]
+  c2 -> c4 [arrowhead=normal,arrowtail=box]
+  c3 -> c4 [arrowhead=dot,arrowtail=dot]
+
+}

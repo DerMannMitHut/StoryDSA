@@ -1,0 +1,32 @@
+digraph beispielweb{
+
+  node [shape=box]
+  anfang [label="Anfang"]
+  ende1 [label="Ende 1"]
+  ende2 [label="Ende 2"]
+  sl1 [label="SL Erzählphase 1"]
+  sl2 [label="SL Erzählphase 2"]
+  sl3 [label="SL Erzählphase 3"]
+
+  node [shape=ellipse]
+  frei1 [label="Freies Spiel"]
+
+  node [shape=diamond]
+  konf1 [label="Nebenkonflikt"]
+
+  node [shape=triangle]
+  konf2 [label="Hauptkonflikt"]
+
+  anfang -> frei1
+  frei1 -> sl1 -> konf1 -> sl3
+  frei1 -> sl2
+  
+  sl2 -> konf2
+  sl3 -> konf2
+
+  konf2 -> ende1 [label="+"]
+  konf2 -> ende2 [label="-"]
+
+
+}
+
